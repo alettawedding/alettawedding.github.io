@@ -490,7 +490,7 @@
 /* WD */
   .WD  {
     width:100%;
-    height: 100vh;
+    height: auto;
     /* background-color: #bbb; */
     display: flex;
     flex-direction: row;
@@ -499,10 +499,10 @@
     align-items: center;
   }
 /* WD_top */
-  .WD .wd_top  {
+  /* .WD .wd_top  {
     width: 75vw;
     height: 60vh;
-    /* background-color: #ccc; */
+    background-color: #ccc;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -511,147 +511,108 @@
     width: 20%;
     height: 100%;
     background-color: #bbb;
-  }
+  } */
 /* WD_footer */
  .WD .wd_footer  {
-    width: 75vw;
-    height: 30vh;
-    background-color: #ddd;
+    width: 100%;
+    height: 180px;
+    background-color: rgba(253, 230, 228, 1.0);
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
   }
   .WD .wd_footer .wd_fL  {
-    width: 40%;
+    width: 55%;
     height: 100%;
-    /* background-color:#bbb;*/
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
   }
-  .WD .wd_footer .wd_fL .wd_fLt  {
-    width: 50%;
-    height: 20%;
-    background-color: #bbb;
+  .WD .wd_footer .wd_fL h2{
+    line-height: 180px;
+    text-align: center;
   }
   .WD .wd_footer .wd_fR  {
-    width: 60%;
+    width: 35%;
     height: 100%;
-    /* background-color: #bbb; */
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    padding: 50px 0;
   }
-  .WD .wd_footer .wd_fR .wd_fRt  {
-    width: 80%;
-    height: 20%;
-    background-color: #eee;
+  .WD .wd_footer .wd_fR h3{
+    line-height: 40px;
+    text-align: left;
+  }
+  .WD .wd_footer .wd_fR h3:nth-child(2){
+    text-align: center;
+  }
+/* BS */
+  .BS  {
+    width:100%;
+    height: auto;
+  }
+/* BS_top */
+.BS .bs_tpic h4{
+  text-align: center;
+}  
+.BS .bs_tpic div {
+    width:180px;
+    height: 180px;
+    border-radius: 90px;
+    background-color: #6ad;
+    margin: 40px auto;
+    background-size: cover;
+    background-position: center;
+  }
+/* BS_footer */
+  .BS .bs_footer  {
+    width:100%;
+    height: auto;
+  }
+  .BS .bs_footer .bs_ftop  {
+  
+    
     margin-bottom: 10px;
-  } 
-/* WPlan */
-  .WPlan  {
+  }
+  .BS .bs_footer h3  {
+    text-align: center;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 20px auto;
+    box-sizing: content-box;
+    border-left: 2px solid #555 ;
+    border-right: 2px solid #555;
+  }
+  .BS .bs_footer .bs_fmain  {
     width:100%;
-    height: 200vh;
-    /* background-color: #aaa; */
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    /* justify-content: center; */
-    align-items: center;
+    height:600px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
   }
-/* WPlan_top */
-  .WPlan .wplan_top  {
-    width:75vw;
-    height: 90vh;
-    /* background-color: #bbb; */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .WPlan .wplan_top .wplan_topt  {
+  .BS .bs_ffooter  {
     width:100%;
-    height: 50%;
-    /* background-color: #bbb; */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .WPlan .wplan_top .wplan_topt .wplan_tpic  {
-    width:200px;
     height: 200px;
-    background-color: #ccc;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    background-color: #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
   }
-/* WPlan_footer */
-  .WPlan .wplan_footer  {
-    width:75vw;
-    height: 100vh;
-    /* background-color: #bbb; */
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; 
-  }
-  .WPlan .wplan_footer .wplan_ftop  {
-    width:25%;
-    height: 10%;
-    border-style: none solid none solid;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; 
-    margin-bottom: 10px;
-  }
-  .WPlan .wplan_footer .wplan_ftop .wplan_fttxt  {
-    width:50%;
+  .BS .bs_ffooter .bs_ffpic{
+    width: calc(16.5% - 10px);
     height: 100%;
-    background-color: #ddd;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
   }
-  .WPlan .wplan_footer .wplan_fmain  {
-    width:100%;
-    height: 70%;
-    background-color: #ddd;
-    margin-bottom: 10px;
-  }
-  .WPlan .wplan_footer .wplan_ffooter  {
-    width:100%;
-    height: 10%;
-    /* background-color: #bbb; */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-  .WPlan .wplan_footer .wplan_ffooter .wplan_ffpic  {
-    width:14.8%;
+  .BS .bs_ffooter .bs_ffbtn  {
+    width:60px;
     height: 100%;
-    border: solid 0.5px;
+    background-color: #fff;
+    padding-left: 14px; 
+    position: absolute;
+    top: 0;
+    right: 0;    
   }
-  .WPlan .wplan_footer .wplan_ffooter .wplan_ffbtn  {
-    width:10%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  .BS .bs_ffooter .bs_ffbtn i{
+    line-height: 200px;
+    text-align: center;
   }
+  
 /* TP */
   .TP  {
     width:100%;
