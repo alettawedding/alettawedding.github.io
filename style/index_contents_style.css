@@ -1,0 +1,182 @@
+.container{
+    width: 100vw;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+.section{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 100px;
+}
+.section .section_sub{
+    max-width: 100%;
+    height: 580px;
+    box-sizing: border-box;
+    /* background-color: #aaa;
+    border: 1px solid black; */
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.sec_img{
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(253, 230, 228, 1.0);
+}
+.sec_info{
+    font-size: 1.5rem;
+    line-height: 1.1em;
+    letter-spacing: 3px;
+}
+.sec_info p{
+    font-size: 1.2rem;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+}
+.section.section_aletta .story_img{
+    min-width: 250px;
+    height: 450px;
+    margin-bottom: 50px;
+}
+.section.section_aletta .story_img_mini{
+    width: 90px;
+    height: 90px;
+    margin-top: 8px;
+    margin-right: 20px;
+}
+.section.section_aletta .sec_aletta_story .section_subtitle{
+    transform: none;
+}
+.section_sub .sec_aletta_team{
+    width: 200%;
+    height: 50%;
+    transition: 2.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+}
+.section_sub .sec_aletta_team.team_dn{
+    transform: translateX(-50%)
+}
+.sec_aletta_team .sec_img.team_img{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    position: relative;
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+.sec_aletta_team.team_up .team_img .sec_img{
+    width:240px;
+    height: 290px;
+    position: absolute;
+    left: 25%;
+}
+.sec_aletta_team.team_dn .team_img .sec_img{
+    width:240px;
+    height: 290px;
+    position: absolute;
+    right: 25%;
+}
+.sec_aletta_team.team_up .team_img .btn_next {
+    line-height: 290px;
+    position: absolute;
+    right: 1%;
+}
+.sec_aletta_team.team_dn .team_img .btn_pre{
+    line-height: 290px;
+    position: absolute;
+    left: 1%;
+}
+.sec_aletta_team.team_up:hover{
+    transform: translateX(-50%)
+}
+.sec_aletta_team.team_dn:hover{
+    transform: translateX(0)
+}
+.team_up .team_img .team_info{
+    position: absolute;
+    left: 48%;
+    top: 30%;
+}
+.team_dn .team_img .team_info{
+    position: absolute;
+    right: 48%;
+    top: 30%;
+}
+.btn_next i, .btn_pre i{
+    color: rgba(253, 230, 228, 0.8);
+    animation-duration: 1.2s;
+    animation-delay: 3s;
+}
+
+.team_dn .team_img .team_info h2{
+    text-align: right;
+}
+.news_img{
+    width: 250px;
+    height: 350px;
+    background-image: url(../img/news.jpg);
+}
+.news_info{
+    line-height: 1.3em;
+}
+.news_info h4{
+    animation-iteration-count: 2;
+}
+.section_news .section_sub .btn_next i{
+    position: absolute;
+    left: -80%;
+}
+.services_img{
+    height: 200px;
+    background-color: #fff;
+    position: relative;
+    transition: 0.8 cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.section_services .section_sub .services_info{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(253, 230, 228, 0.6);
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    /* overflow: hidden; */
+    transition: 1s ;
+}
+.section_services .section_sub .services_info h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 50px;
+    transition: 1s ;
+}
+.section_services .section_sub .hover_info{
+    width:0;
+    height: 0;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    line-height: 150px;
+    transition: 0.8s 0.2s;
+}
+/* .section_services .section_sub .services_img:hover{
+    opacity: 0.65;
+} */
+.section_services .section_sub .services_img:hover .services_info{
+    /* height: 100%; */
+    background-color: rgba(253, 230, 228, 0);
+}
+.section_services .section_sub .services_img:hover .services_info h4{
+    font-size: 1.6rem;
+    transform:translateY(-75px);
+}
+.section_services .section_sub .services_img:hover .hover_info{
+    width:130px;
+    height: 130px;
+    border-radius: 65px;
+    background-color: rgba(253, 230, 228, 0.7);
+    /* top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%); */
+    line-height: 150px;
+}

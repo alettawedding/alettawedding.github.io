@@ -1,0 +1,553 @@
+/* CONTAINER */
+  .container
+  {
+	width: 100vw;
+	height: auto;
+	/* background-color: #000; */
+  }
+/* PIC */
+  .PIC
+  {
+  	width: 100%;
+	  height: 100vh;
+	  background-color: #aaa;
+    margin-bottom: 10px;
+  }
+/* DR */
+  .DR
+  {
+    width:100%;
+    height: auto;
+    /* background-color: #bbb; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items:center;
+  }
+/* DR_top */
+  .DR .pic_top
+  {
+  	width: 75vw;
+  	height: 90vh;
+  	/* background-color: #000; */
+  	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .DR .pic_top .dr_card
+  {
+  	width: 50%;
+  	height: 25%;
+  	/* background-color: #00f; */
+  	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .DR .pic_top .dr_card .dr_card1
+  {
+  	width: 50%;
+  	height: 100%;
+  	background-color: #ccc;
+  	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }
+  .DR .pic_top .dr_card .dr_card2
+  {
+  	width: 50%;
+  	height: 100%;
+  	background-color: #ddd;
+  	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }
+  .dr_cardT
+  {
+  	width: 50%;
+  	height: 20%;
+  	background-color: #aaa;
+    margin-bottom: 10px;
+  }
+  .dr_cardB
+  {
+  	width: 45%;
+  	height: 10%;
+  	background-color: #aaa;
+  }
+/* DR_main */
+  .pic_main
+  {
+  	width: 75vw;
+  	height: 50vh;
+  	/* background-color: #ff0; */
+  	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .pic_main .pic_mainL
+  {
+  	width: 30%;
+  	height: 100%;
+  	background-color: #aaa;
+  	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .pic_main .pic_mainL .pic_mainLT
+  {
+  	width: 200px;
+  	height: 200px;
+  	background-color: #ccc;
+  	border-radius: 50%;
+  	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .pic_main .pic_mainL .pic_mainLT .pic_mainbtn
+  {
+  	width: 50%;
+  	height: 20%;
+  	background-color: #aaa;
+  }
+  .pic_main .pic_mainL .pic_mainLB
+  {
+  	width: 70%;
+  	height: 10%;
+  	background-color: #ccc;
+  	margin-bottom: 10px;
+  }
+  .pic_main .pic_mainR
+  {
+  	width: 70%;
+  	height: 100%;
+  	background-color: #ddd;
+  }
+/* DR_footer */
+  .pic_fotter
+  {
+  	width: 75vw;
+  	height: 50vh;
+  	/* background-color: #ff0; */
+  	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .pic_fotter .pic_footerT
+  {
+  	width: 100%;
+  	height: 30%;
+  	/* background-color: #bbb; */
+  }
+  .pic_fotter .pic_footerM
+  {
+  	width: 100%;
+  	height: 50%;
+  	/* background-color: #bbb; */
+  	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .pic_fotter .pic_footerM .pic_fimg
+  {
+  	width: 14.8%;
+  	height: 100%;
+    border: solid 0.1px;
+  }
+  .pic_fotter .pic_footerM .pic_fbtn
+  {
+  	width: 10%;
+  	height: 100%;
+  	/* background-color: #bbb; */
+  	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .pic_fotter .pic_footerF
+  {
+  	width: 100%;
+  	height: 20%;
+  	/* background-color: #bbb; */
+  }
+/* WP */
+  .WP
+  {
+    width:100%;
+    height: auto;
+    /* background-color: #aaa; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+/* WP_top */
+  .WP .wp_top
+  {
+    width: 60vw;
+    height: 40vw;
+    /* background-color: #bbb; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .WP .wp_top .wp_tblock
+  {
+    width: 25%;
+    height: 50%;
+    /* background-color: #ccc; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .WP .wp_top .wp_tblock .wp_tbtitle
+  {
+    width: 80%;
+    height: 10%;
+    background-color: #aaa;
+    margin-bottom: 10px;
+  }
+  .WP .wp_top .wp_tblock .wp_tbimg
+  {
+    width: 150px;
+    height: 150px;
+    background-color: #aaa;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+/* WP_main */
+  .WP .wp_main
+  {
+    width: 100%;
+    height: 50vw;
+    /* background-color: #bbb; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .WP .wp_main .wp_mtop
+  {
+    width: 100%;
+    height: 80%;
+    background-color: #ccc;
+  }
+  .WP .wp_main .wp_mbottom
+  {
+    width: 100%;
+    height: 20%;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .WP .wp_main .wp_mbottom .wp_mbL,.WP .wp_main .wp_mbottom .wp_fbR
+  {
+    width: 50%;
+    height: 100%;
+    /* background-color: #bbb; */
+  }
+  .WP .wp_main .wp_mbottom .wp_mbL
+  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .WP .wp_main .wp_mbottom .wp_fbR
+  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .WP .wp_main .wp_mbottom .wp_mbL .wp_fbLbtn
+  {
+    width: 30%;
+    height: 30%;
+    background-color: #ccc;
+  }
+  .WP .wp_main .wp_mbottom .wp_fbR .wp_fbRtxt
+  {
+    width: 60%;
+    height: 10%;
+    background-color: #ccc;
+    margin-bottom: 10px;
+  }
+/* WP_fotter */
+  .WP .wp_fotter
+  {
+    width: 75vw;
+    height: 100vh;
+    /* background-color: #bbb; */
+  }
+  .WP .wp_fotter .wp_fpic
+  {
+    width: 75vw;
+    height: 90vh;
+    background-color: #bbb;
+  }
+  .WP .wp_fotter .wp_fbtn
+  {
+    width: 75vw;
+    height: 10vh;
+    /* background-color: #bbb; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+/* WD */
+  .WD
+  {
+    width:100%;
+    height: auto;
+    /* background-color: #bbb; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+/* WD_top */
+  .WD .wd_top
+  {
+    width: 75vw;
+    height: 60vh;
+    /* background-color: #ccc; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .WD .wd_top .wd_timg
+  {
+    width: 20%;
+    height: 100%;
+    background-color: #bbb;
+  }
+/* WD_footer */
+ .WD .wd_footer
+  {
+    width: 75vw;
+    height: 30vh;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .WD .wd_footer .wd_fL
+  {
+    width: 40%;
+    height: 100%;
+    /* background-color:#bbb;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .WD .wd_footer .wd_fL .wd_fLt
+  {
+    width: 50%;
+    height: 20%;
+    background-color: #bbb;
+  }
+  .WD .wd_footer .wd_fR
+  {
+    width: 60%;
+    height: 100%;
+    /* background-color: #bbb; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .WD .wd_footer .wd_fR .wd_fRt
+  {
+    width: 80%;
+    height: 20%;
+    background-color: #eee;
+    margin-bottom: 10px;
+  } 
+/* BS */
+  .BS
+  {
+    width:100%;
+    height: auto;
+    /* background-color: #aaa; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+  }
+/* BS_top */
+  .BS .bs_top
+  {
+    width:75vw;
+    height: 90vh;
+    /* background-color: #bbb; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .BS .bs_top .bs_topt
+  {
+    width:100%;
+    height: 50%;
+    /* background-color: #bbb; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .BS .bs_top .bs_topt .bs_tpic
+  {
+    width:200px;
+    height: 200px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+/* BS_footer */
+  .BS .bs_footer
+  {
+    width:75vw;
+    height: 100vh;
+    /* background-color: #bbb; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+  }
+  .BS .bs_footer .bs_ftop
+  {
+    width:25%;
+    height: 10%;
+    border-style: none solid none solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 10px;
+  }
+  .BS .bs_footer .bs_ftop .BS_fttxt
+  {
+    width:50%;
+    height: 100%;
+    background-color: #ddd;
+  }
+  .BS .bs_footer .bs_fmain
+  {
+    width:100%;
+    height: 70%;
+    background-color: #ddd;
+    margin-bottom: 10px;
+  }
+  .BS .bs_footer .bs_ffooter
+  {
+    width:100%;
+    height: 10%;
+    /* background-color: #bbb; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .BS .bs_footer .bs_ffooter .bs_ffpic
+  {
+    width:14.8%;
+    height: 100%;
+    border: solid 0.5px;
+  }
+  .BS .bs_footer .bs_ffooter .bs_ffbtn
+  {
+    width:10%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+/* TP */
+  .TP
+  {
+    width:100%;
+    height: auto;
+    /* background-color: #bbb; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+  }
+  .TP .tp_txt
+  {
+    width: 60vw;
+    height: 50vh;
+    /* background-color: #bbb; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+  }
+  .TP .tp_ttop,.TP .tp_tbottom
+  {
+    width: 100%;
+    height: 40%;
+    /* background-color: #bbb; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; 
+    margin: 0;
+  }
+  .TP .tp_ttop .tp_apic
+  {
+    width: 150px;
+    height: 150px;
+    background-color: #bbb;
+    border-radius: 50%;
+  }
+  .TP .tp_tbottom .tp_atxt
+  {
+    width: 15%;
+    height: 10%;
+    background-color: #bbb;
+  }

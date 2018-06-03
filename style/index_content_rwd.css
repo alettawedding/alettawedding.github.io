@@ -1,0 +1,98 @@
+@media screen and (max-width:768px){
+
+.section .section_sub{
+    height: auto;
+    margin-top: 3px;
+}
+.section.section_aletta .story_img {
+    min-width: 250px;
+    height: 210px;
+    margin-bottom: 10px;
+}
+.sec_info h1, .sec_info h2{
+    text-align: center;
+    font-size: 1.8rem;
+}
+.sec_info h1, .sec_info p{
+    text-align: center;
+}
+.section.section_aletta .story_img_mini{
+    display:none;
+}
+.section_sub .sec_aletta_team{
+    height:600px;
+    width: 200vw;
+}
+.sec_aletta_team.team_up .team_img .sec_img, .sec_aletta_team.team_dn .team_img .sec_img{
+    width: 250px;
+    height: 350px;
+    position: relative;
+    left:50%;
+    transform: translate(-50%, 35px);
+}
+.sec_aletta_team .team_img .team_info{
+    width: 250px;
+    position: relative;
+    top: 0;
+    left:50%;
+    transform: translate(-50%, 70px);
+}
+.sec_aletta_team .team_img .team_info h2{
+    text-align: left;
+    font-size: 1.4rem;
+}
+.sec_aletta_team .team_img .team_info p{
+    text-align: left;
+    font-size: 1.1rem;
+}
+.sec_aletta_team.team_up .team_img .btn_next, .sec_aletta_team.team_dn .team_img .btn_pre{
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.sec_aletta_team.team_dn .team_img .btn_pre{
+    left: 20px;
+}
+.news_img{
+    width: 420px;
+    height: 260px;
+    margin-bottom: 24px;
+    background-image: url(../img/news_mb.jpg);
+}
+.section_news .news_info h2, .section_news .news_info h3, .section_news .news_info p, .section_news .news_info h4{
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+.section_news .news_info h3{
+    font-size: 1.4rem;
+}
+.section_news .news_info p{
+    font-size: 1.1rem;
+    line-height: 1.5em;
+    
+}
+.section_news .section_sub .btn_next i{
+    top: -100px;
+}
+.section_news .news_info h4{
+    font-size: 1.3rem;
+}
+.services_img{
+    height: 500px;
+    margin-bottom: 110px;
+}
+.section_services .section_sub .services_info{
+    height: 100px;
+    bottom:-100px;
+    /* transform: translateY(-50%); */
+    background-color: transparent;
+    
+}
+.section_services .section_sub .services_info h4{
+    line-height: 100px;
+    font-size: 1.9rem;
+    font-weight: 400;
+
+}
+
+}
