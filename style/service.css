@@ -138,15 +138,15 @@
   	height: 20%;
   	/* background-color: #aaa; */
     margin-bottom: 10px;
-    font-size: 2.5em;
+    font-size: 1.5em;
     margin-bottom:20px; 
-    letter-spacing: 5px;
+    letter-spacing: 10px;
   }
   .dr_cardB  {
   	width: 100%;
   	height: 10%;
     /* background-color: #aaa; */
-    font-size: 1.5em;
+    font-size: 1em;
     letter-spacing: 5px;
   }
   .dr_cardT,.dr_cardB  {
@@ -200,11 +200,19 @@
     align-items: center;
     color: #C69C6D;
   }
+  .pic_main .pic_mainL .pic_mainLT .pic_mainbtnT
+  {
+    font-size: 2em;
+  }
+  .pic_main .pic_mainL .pic_mainLT .pic_mainbtnB
+  {
+    font-size: 1.5em;
+  }
   .pic_main .pic_mainL .pic_mainLB  {
   	width: 70%;
   	height: 10%;
-  	/* background-color: #ccc; */
-    margin-bottom: 10px;
+    /* background-color: #ccc; */
+    /* margin-bottom: 10px; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -344,6 +352,7 @@
     width: 80%;
     height: 10%;
     /* background-color: #aaa; */
+    font-size: 1.2em;
     margin-bottom: 10px;
     color: #666666;
     display: flex;
@@ -446,7 +455,7 @@
     align-items: center;
   }
   .WP .wp_main .wp_mbottom .wp_mbL .wp_fbLbtn  {
-    width: 30%;
+    width: 50%;
     height: 30%;
     border: solid 2px #808080;
     font-size: 1.5em;
@@ -460,7 +469,7 @@
     width: 60%;
     height: 10%;
     font-size: 1em;
-    background-color: #808080;
+    /* background-color: #808080; */
     margin-bottom: 10px;
   }
 /* WP_fotter */
