@@ -507,20 +507,6 @@
     justify-content: center;
     align-items: center;
   }
-/* WD_top */
-  /* .WD .wd_top  {
-    width: 75vw;
-    height: 60vh;
-    background-color: #ccc;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .WD .wd_top .wd_timg  {
-    width: 20%;
-    height: 100%;
-    background-color: #bbb;
-  } */
 /* WD_footer */
  .WD .wd_footer  {
     width: 100%;
