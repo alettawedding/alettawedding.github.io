@@ -60,6 +60,12 @@
     .pic_main  
     {
         width: 100%;
-
+    }
+    .pic_main .pic_mainL  
+    {
+        width: 100%;
+    }
+    .pic_main .pic_mainR  {
+        width: 100%;
     }
 }
