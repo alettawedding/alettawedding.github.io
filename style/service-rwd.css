@@ -1,4 +1,28 @@
 @media screen and (max-width:768px)
 {
-	
+	.PIC  {
+        width: 100%;
+        height: 100vh;
+    }
+    .DR .pic_top .dr_card .dr_card1,.DR .pic_top .dr_card .dr_card2
+    {
+        width: 10%;
+        height: 100%;
+    }
+    .pic_main .pic_mainL .pic_mainLT .pic_mainbtnT,.pic_main .pic_mainL .pic_mainLT .pic_mainbtnB  {
+        width: 100%;
+        height: 20%;
+    }
+    .pic_main .pic_mainL .pic_mainLB  {
+        width: 100%;
+        height: 10%;
+    }
+    .pic_fotter .pic_footerM  {
+        width: 100%;
+        height: 50%;
+    }
+    .WP .wp_top .wp_tblock  {
+        width: 100%;
+        height: 50%;
+      }
 }
