@@ -12,7 +12,6 @@
 /* DR */
   .DR  {
     width:100%;
-    height: 200vh;
     /* background-color: #bbb; */
     display: flex;
     flex-direction: column;
@@ -160,7 +159,6 @@
 /* DR_main */
   .pic_main  {
   	width: 75vw;
-  	height: 50vh;
   	/* background-color: #ff0; */
   	display: flex;
     flex-direction: row;
@@ -169,7 +167,7 @@
   }
   .pic_main .pic_mainL  {
   	width: 30%;
-  	height: 100%;
+  	height: 500px;
   	background-color: #FDDECF;
   	display: flex;
     flex-direction: column;
@@ -222,7 +220,7 @@
   }
   .pic_main .pic_mainR  {
   	width: 70%;
-  	height: 100%;
+  	height: 500px;
     background-color: #ddd;
     background-image: url(../material/pic-mainR.jpg);
     background-size: cover;
@@ -230,8 +228,7 @@
   }
 /* DR_footer */
   .pic_fotter  {
-  	width: 75vw;
-  	height: 50vh;
+    width: 75vw;
   	/* background-color: #ff0; */
   	display: flex;
     flex-direction: row;
@@ -240,59 +237,102 @@
   }
   .pic_fotter .pic_footerT  {
   	width: 100%;
-  	height: 30%;
+  	height: 200px;
   	/* background-color: #bbb; */
   }
   .pic_fotter .pic_footerM  {
   	width: 100%;
-  	height: 50%;
+  	height: 200px;
   	/* background-color: #bbb; */
   	display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
   }
   .pic_fotter .pic_footerM .pic_fimg  {
   	width: 15%;
   	height: 100%;
     /* border: solid 0.1px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
   .pic_fotter .pic_footerM .pic_fimg.bgi1  {
     background-color: #ddd;
-    background-image: url(../material/DR-footer-img/V-neck/V-neck-1.jpg);
+    background-image: url(../material/DR-footer-img/A-line/01_2.jpg);
     background-size: cover;
     background-position: center;
   }
   .pic_fotter .pic_footerM .pic_fimg.bgi2  {
     background-color: #ddd;
-    background-image: url(../material/DR-footer-img/V-neck/V-neck-2.jpg);
+    background-image: url(../material/DR-footer-img/A-line/01_3.jpg);
     background-size: cover;
     background-position: center;
   }
   .pic_fotter .pic_footerM .pic_fimg.bgi3  {
     background-color: #ddd;
-    background-image: url(../material/DR-footer-img/V-neck/V-neck-7.jpg);
+    background-image: url(../material/DR-footer-img/A-line/01_4.jpg);
     background-size: cover;
     background-position: center;
   }
   .pic_fotter .pic_footerM .pic_fimg.bgi4  {
     background-color: #ddd;
-    background-image: url(../material/DR-footer-img/V-neck/V-neck-4.jpg);
+    background-image: url(../material/DR-footer-img/A-line/01_5.jpg);
     background-size: cover;
     background-position: center;
   }
   .pic_fotter .pic_footerM .pic_fimg.bgi5  {
     background-color: #ddd;
-    background-image: url(../material/DR-footer-img/V-neck/V-neck-9.jpg);
+    background-image: url(../material/DR-footer-img/A-line/01_6.jpg);
     background-size: cover;
     background-position: center;
   }
   .pic_fotter .pic_footerM .pic_fimg.bgi6  {
     background-color: #ddd;
-    background-image: url(../material/DR-footer-img/V-neck/V-neck-6.jpg);
+    background-image: url(../material/DR-footer-img/A-line/01_7.jpg);
     background-size: cover;
     background-position: center;
   }
+  /* .pic_fotter .pic_footerM .pic_fimg.bgi7  {
+    background-color: #ddd;
+    background-image: url(../material/DR-footer-img/A-line/01_8.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .pic_fotter .pic_footerM .pic_fimg.bgi8  {
+    background-color: #ddd;
+    background-image: url(../material/DR-footer-img/A-line/01_9.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+  .pic_fotter .pic_footerM .pic_fimg.bgi9  {
+    background-color: #ddd;
+    background-image: url(../material/DR-footer-img/A-line/01_10.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+  .pic_fotter .pic_footerM .pic_fimg.bgi10  {
+    background-color: #ddd;
+    background-image: url(../material/DR-footer-img/A-line/01_11.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+  .pic_fotter .pic_footerM .pic_fimg.bgi11  {
+    background-color: #ddd;
+    background-image: url(../material/DR-footer-img/A-line/01_12.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+  .pic_fotter .pic_footerM .pic_fimg.bgi12  {
+    background-color: #ddd;
+    background-image: url(../material/DR-footer-img/A-line/01_14.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  } */
   .pic_fotter .pic_footerM .pic_fbtn  {
   	width: 10%;
     height: 100%;
@@ -313,13 +353,12 @@
   }
   .pic_fotter .pic_footerF  {
   	width: 100%;
-  	height: 20%;
+  	height: 200px;
   	/* background-color: #bbb; */
   }
 /* WP */
   .WP  {
     width:100%;
-    height: 300vh;
     /* background-color: #aaa; */
     display: flex;
     flex-direction: column;
@@ -329,8 +368,7 @@
   }
 /* WP_top */
   .WP .wp_top  {
-    width: 60vw;
-    height: 40vw;
+    width: 80vw;
     /* background-color: #bbb; */
     display: flex;
     flex-direction: row;
@@ -340,7 +378,6 @@
   }
   .WP .wp_top .wp_tblock  {
     width: 25%;
-    height: 50%;
     /* background-color: #ccc; */
     display: flex;
     flex-direction: column;
@@ -360,6 +397,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
   }
   .WP .wp_top .wp_tblock .wp_tbimg  {
     width: 150px;
@@ -367,6 +405,7 @@
     background-color: #aaa;
     border-radius: 50%;
     margin-bottom: 10px;
+    margin-bottom: 50px;
   }
   .WP .wp_top .wp_tblock .wp_tbimg.d1  {
     background-image: url(../material/WP/blur-care-close-up-236275.jpg);
@@ -411,7 +450,6 @@
 /* WP_main */
   .WP .wp_main  {
     width: 100%;
-    height: 50vw;
     /* background-color: #bbb; */
     display: flex;
     flex-direction: row;
@@ -421,7 +459,7 @@
   }
   .WP .wp_main .wp_mtop  {
     width: 100%;
-    height: 80%;
+    height: 500px;
     background-color: #ccc;
     background-image: url(../material/WP/architecture-background-buildings-933118.jpg);
     background-size: cover;
@@ -429,7 +467,7 @@
   }
   .WP .wp_main .wp_mbottom  {
     width: 100%;
-    height: 20%;
+    height: 200px;
     background-color: #FDE6E0;
     display: flex;
     flex-direction: row;
@@ -474,17 +512,156 @@
   }
 /* WP_fotter */
   .WP .wp_fotter  {
-    width: 75vw;
-    height: 100vh;
+    width: 100vw;
     /* background-color: #bbb; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
-  .WP .wp_fotter .wp_fpic  {
-    width: 75vw;
-    height: 90vh;
-    background-color: #bbb;
+  .WP .wp_fotter .wpLeft,.WP .wp_fotter .wpMiddle,.WP .wp_fotter .wpRight  {
+    width: 30vw;
+    margin-left: 5px;
+    /* background-color: #bbb; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+  }
+  .WP .wp_fotter .wpLeft .wp_fpic1
+  {
+    width: 30vw;
+    height: 350px;
+    background-image: url(../material/WP/lightbox/01.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+  }
+  .WP .wp_fotter .wpLeft .wp_fpic2
+  {
+    width: 30vw;
+    height: 250px;
+    background-image: url(../material/WP/lightbox/02.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+  }
+  .WP .wp_fotter .wpLeft .wp_fpic3
+  {
+    width: 30vw;
+    height: 400px;
+    background-image: url(../material/WP/lightbox/03.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+  }
+  .WP .wp_fotter .wpLeft .wp_fpic4
+  {
+    width: 30vw;
+    height: 250px;
+    background-image: url(../material/WP/lightbox/04.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+  }
+  .WP .wp_fotter .wpLeft .wp_fpic5
+  {
+    width: 30vw;
+    height: 600px;
+    background-image: url(../material/WP/lightbox/19.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+  }
+  .WP .wp_fotter .wpMiddle .wp_fpic1
+  {
+    width: 30vw;
+    height: 250px;
+    background-image: url(../material/WP/lightbox/06.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+  }
+  .WP .wp_fotter .wpMiddle .wp_fpic2
+  {
+    width: 30vw;
+    height: 300px;
+    background-image: url(../material/WP/lightbox/20.jpg);
+    background-size: cover;
+    background-position:right;
+    margin-bottom: 10px;
+  }
+  .WP .wp_fotter .wpMiddle .wp_fpic3
+  {
+    width: 30vw;
+    height: 550px;
+    background-image: url(../material/WP/lightbox/08.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+  }
+  .WP .wp_fotter .wpMiddle .wp_fpic4
+  {
+    width: 30vw;
+    height: 250px;
+    background-image: url(../material/WP/lightbox/09.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+  }
+  .WP .wp_fotter .wpMiddle .wp_fpic5
+  {
+    width: 30vw;
+    height: 350px;
+    background-image: url(../material/WP/lightbox/10.jpg);
+    background-size: cover;
+    background-position: left;
+    margin-bottom: 10px;
+  }
+  .WP .wp_fotter .wpRight .wp_fpic1
+  {
+    width: 30vw;
+    height: 350px;
+    background-image: url(../material/WP/lightbox/11.jpg);
+    background-size: cover;
+    background-position: left;
+    margin-bottom: 10px;
+  }
+  .WP .wp_fotter .wpRight .wp_fpic2
+  {
+    width: 30vw;
+    height: 350px;
+    background-image: url(../material/WP/lightbox/12.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+  }
+  .WP .wp_fotter .wpRight .wp_fpic3
+  {
+    width: 30vw;
+    height: 400px;
+    background-image: url(../material/WP/lightbox/13.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+  }
+  .WP .wp_fotter .wpRight .wp_fpic4
+  {
+    width: 30vw;
+    height: 300px;
+    background-image: url(../material/WP/lightbox/14.jpg);
+    background-size: cover;
+    background-position: right;
+    margin-bottom: 10px;
+  }
+  .WP .wp_fotter .wpRight .wp_fpic5
+  {
+    width: 30vw;
+    height: 450px;
+    background-image: url(../material/WP/lightbox/15.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
   }
   .WP .wp_fotter .wp_fbtn  {
     width: 75vw;
@@ -608,13 +785,12 @@
   
 /* TP */
   .TP  {
-    width:100%;
+    widows: 100vw;
     height: 100vh;
     /* background-color: #bbb; */
   }
   .TP .tp_txt  {
     width: 100%;
-    height: 50%;
   }
   .TP .tp_txt .tp_atxt .tp_apic  {
     width: 180px;

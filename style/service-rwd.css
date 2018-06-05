@@ -12,16 +12,33 @@
     .DR .pic_top  
     {
         width: 100%;
+        height: 60%;
         margin-bottom: 10px;
     }
-    .DR .pic_top .dr_card  
+    .DR .pic_top .dr_card:nth-child(4n) .dr_card2, .DR .pic_top .dr_card:nth-child(4n+3) .dr_card2{
+        border: none;
+        background-color: rgb(237,228,227);
+      }
+      .DR .pic_top .dr_card:nth-child(4n+1) .dr_card2, .DR .pic_top .dr_card:nth-child(4n+2) .dr_card2{
+        background-color: rgb(237,228,227);
+      }
+    .DR .pic_top .dr_card .dr_card2 
     {
         width: 50%;
         height: 50%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items:center;
+        margin-bottom: 10px;
+    }
+    .DR .pic_top .dr_card .dr_card2:hover
+    {
+        background-color: rgba(253, 230, 228, 0);
+    }
+    .dr_cardT,.dr_cardB  
+    {
+        color: #DBB3B5;
     }
     .DR .pic_top .dr_card .dr_card2
     {
@@ -64,8 +81,71 @@
     .pic_main .pic_mainL  
     {
         width: 100%;
+        height: 400px;
     }
     .pic_main .pic_mainR  {
         width: 100%;
+        height: 400px;
     }
+    .pic_fotter .pic_footerT, .pic_fotter .pic_footerF  
+    {
+        width: 100%;
+    }
+    .WP .wp_top .wp_tblock  
+    {
+        width: 50%;
+        margin-top: 10px;
+    }
+    .WP .wp_top .wp_tblock .wp_tbimg  
+    {
+        display: none;
+    }
+    .WP .wp_top .wp_tblock .wp_tbtitle  {
+        width: 90%;
+        height:50px;
+        font-size: 1.5em;
+        border: solid 4px;
+        background-size: border-box;
+        padding: 30px;
+        letter-spacing: 5px;
+      }
+      .WP .wp_main .wp_mtop,.WP .wp_main .wp_mbottom 
+      {
+        width: 100%;
+      }
+      .WP .wp_main .wp_mbottom .wp_mbL,.WP .wp_main .wp_mbottom .wp_mbR
+      {
+          width: 40%
+      }
+      .WP .wp_main .wp_mbottom .wp_mbL .wp_fbLbtn  
+      {
+        width: 100%;
+      }
+      .WP .wp_main .wp_mbottom .wp_fbR .wp_fbRtxt  
+      {
+        width: 80%;
+      }
+      .BS .bs_ffooter  
+      {
+        width:100%;
+      }
+      .BS .bs_ffooter .bs_ffpic{
+        width:15%;
+      }
+      .TP .tp_txt  
+      {
+        width: 50%;
+      }
+      .TP .tp_txt .tp_atxt .tp_apic  
+      {
+        width: 150px;
+        height: 150px;
+      }
+       /*.TP .tp_txt .tp_atxt h4{
+        width: 120px;
+        text-align: center;
+        line-height: 30px;
+        display: inline-block;
+        margin: 20px auto;
+      } */
 }
