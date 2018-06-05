@@ -375,7 +375,7 @@
 		</div>
 		<div id="BS" class="BS section row justify-content-between align-items-center m-0">
 			<!-- 新娘秘書 -->
-			<div class="section_title col-12 d-flex justify-content-center align-items-center ">
+			<div class="section_title col-12 d-flex justify-content-center align-items-center px-0 mx-0">
 				<div class="section_deco"></div>
 				<div>
 					<h1>新娘秘書</h1>
@@ -383,49 +383,183 @@
 				</div>
 				<div class="section_deco"></div>
 			</div>
-			<div class="bs_tpic col-4 mt-5">
-				<h4>凡爾賽玫瑰</h4>
-				<div class="mx-auto my-3" style="background-image: url(img/service/stylingA_demo.jpg);"></div>
-			</div>
-			<div class="bs_tpic col-4 mt-5">
-				<h4>粉紅泡泡</h4>
-				<div class="mx-auto my-3" style="background-image: url(img/service/stylingB_demo.jpg);"></div>
-			</div>
-			<div class="bs_tpic col-4 mt-5">
-				<h4>第凡內早餐</h4>
-				<div class="mx-auto my-3" style="background-image: url(img/service/stylingC_demo.jpg);"></div>
-			</div>
-			<div class="bs_tpic col-4 mb-5">
-				<div class="mx-auto my-3" style="background-image: url(img/service/stylingD_demo.jpg);"></div>
-				<h4>夢迴好萊塢</h4>
-			</div>
-			<div class="bs_tpic col-4 mb-5">
-				<div class="mx-auto my-3" style="background-image: url(img/service/stylingE_demo.jpg);"></div>
-				<h4>絕代風華</h4>
-			</div>
-			<div class="bs_tpic col-4 mb-5">
-				<div class="mx-auto my-3" style="background-image: url(img/service/stylingF_demo.jpg);"></div>
-				<h4>女神黛安娜</h4>
-			</div>
-			<div class="bs_footer col-12 row px-0 mx-0">
-				<h3>凡爾賽玫瑰</h3>
-				<div class="bs_fmain" style="background-image: url(img/service/stylingA_demo.jpg);"></div>
-			</div>
-			<div class="bs_ffooter col-12 p-0 mt-5">
-				<div class="bs_ffpic" style="background-image: url(img/service/stylingA_1.jpg);"></div>
-				<div class="bs_ffpic" style="background-image: url(img/service/stylingA_2.jpg);"></div>
-				<div class="bs_ffpic" style="background-image: url(img/service/stylingA_3.jpg);"></div>
-				<div class="bs_ffpic" style="background-image: url(img/service/stylingA_4.jpg);"></div>
-				<div class="bs_ffpic" style="background-image: url(img/service/stylingA_5.jpg);"></div>
-				<div class="bs_ffpic" style="background-image: url(img/service/stylingA_6.jpg);"></div>
-				<div class="bs_ffpic" style="background-image: url(img/service/stylingA_7.jpg);"></div>
-				<div class="bs_ffpic" style="background-image: url(img/service/stylingA_8.jpg);"></div>
-				<div class="bs_ffpic" style="background-image: url(img/service/stylingA_9.jpg);"></div>
-				<div class="bs_ffpic" style="background-image: url(img/service/stylingA_10.jpg);"></div>
-				<div class="bs_ffpic" style="background-image: url(img/service/stylingA_11.jpg);"></div>
-				<div class="bs_ffpic" style="background-image: url(img/service/stylingA_12.jpg);"></div>
-				<div class="bs_ffbtn ">
-					<i class="fas fa-angle-right fa-4x"></i>
+			<ul class="nav nav-tabs col-12" id="myTab" role="tablist">
+				<li class="nav-item bs_tpic col-4 mt-5">
+					<a class="nav-link active" id="sectionA-tab" data-toggle="tab" href="#sectionA" role="tab" aria-controls="sectionA" aria-selected="true">
+						<h4>凡爾賽玫瑰</h4>
+						<div class="mx-auto my-3" style="background-image: url(img/service/stylingA_demo.jpg);"></div>
+					</a>
+				</li>
+				<li class="nav-item bs_tpic col-4 mt-5">
+					<a class="nav-link" id="sectionB-tab" data-toggle="tab" href="#sectionB" role="tab" aria-controls="sectionB" aria-selected="false">
+						<h4>粉紅泡泡</h4>
+						<div class="mx-auto my-3" style="background-image: url(img/service/stylingB_demo.jpg);"></div>
+					</a>
+				</li>
+				<li class="nav-item bs_tpic col-4 mt-5">
+					<a class="nav-link" id="sectionC-tab" data-toggle="tab" href="#sectionC" role="tab" aria-controls="sectionC" aria-selected="false">
+						<h4>第凡內早餐</h4>
+						<div class="mx-auto my-3" style="background-image: url(img/service/stylingC_demo.jpg);"></div>
+					</a>
+				</li>
+				<li class="nav-item bs_tpic col-4 mb-5">
+					<a class="nav-link" id="sectionD-tab" data-toggle="tab" href="#sectionD" role="tab" aria-controls="sectionD" aria-selected="false">
+						<div class="mx-auto my-3" style="background-image: url(img/service/stylingD_demo.jpg);"></div>
+						<h4>夢迴好萊塢</h4>
+					</a>
+				</li>
+				<li class="nav-item bs_tpic col-4 mb-5">
+					<a class="nav-link" id="sectionE-tab" data-toggle="tab" href="#sectionE" role="tab" aria-controls="sectionE" aria-selected="false">
+						<div class="mx-auto my-3" style="background-image: url(img/service/stylingE_demo.jpg);"></div>
+						<h4>絕代風華</h4>
+					</a>
+				</li>
+				<li class="nav-item bs_tpic col-4 mb-5">
+					<a class="nav-link" id="sectionF-tab" data-toggle="tab" href="#sectionF" role="tab" aria-controls="sectionF" aria-selected="false">
+						<div class="mx-auto my-3" style="background-image: url(img/service/stylingF_demo.jpg);"></div>
+						<h4>女神黛安娜</h4>
+					</a>
+				</li>
+			</ul>
+			<div class="tab-content col-12" id="myTabContent">
+				<div class="tab-pane fade show active" id="sectionA" role="tabpanel" aria-labelledby="sectionA-tab">
+					<div class="bs_footer row mx-0">
+						<h3>凡爾賽玫瑰</h3>
+						<div class="bs_fmain" style="background-image: url(img/service/stylingA_demo.jpg);"></div>
+					</div>
+					<div class="bs_ffooter col-12 p-0 mt-5">
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingA_1.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingA_2.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingA_3.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingA_4.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingA_5.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingA_6.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingA_7.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingA_8.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingA_9.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingA_10.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingA_11.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingA_12.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingA_13.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingA_14.jpg);"></div>
+						<div class="bs_ffbtn ">
+							<i class="fas fa-angle-right fa-4x"></i>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="sectionB" role="tabpanel" aria-labelledby="sectionB-tab">
+					<div class="bs_footer row mx-0">
+						<h3>粉紅泡泡</h3>
+						<div class="bs_fmain" style="background-image: url(img/service/stylingB_demo.jpg);"></div>
+					</div>
+					<div class="bs_ffooter col-12 p-0 mt-5">
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingB_1.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingB_2.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingB_3.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingB_4.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingB_5.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingB_6.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingB_7.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingB_8.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingB_9.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingB_10.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingB_11.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingB_12.jpg);"></div>
+						<div class="bs_ffbtn ">
+							<i class="fas fa-angle-right fa-4x"></i>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="sectionC" role="tabpanel" aria-labelledby="sectionC-tab">
+					<div class="bs_footer row mx-0">
+						<h3>第凡內早餐</h3>
+						<div class="bs_fmain" style="background-image: url(img/service/stylingC_demo.jpg);"></div>
+					</div>
+					<div class="bs_ffooter col-12 p-0 mt-5">
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingC_1.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingC_2.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingC_3.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingC_4.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingC_5.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingC_6.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingC_7.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingC_8.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingC_9.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingC_10.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingC_11.jpg);"></div>
+						<div class="bs_ffbtn ">
+							<i class="fas fa-angle-right fa-4x"></i>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="sectionD" role="tabpanel" aria-labelledby="sectionD-tab">
+					<div class="bs_footer row mx-0">
+						<h3>夢迴好萊塢</h3>
+						<div class="bs_fmain" style="background-image: url(img/service/stylingD_demo.jpg);"></div>
+					</div>
+					<div class="bs_ffooter col-12 p-0 mt-5">
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingD_1.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingD_2.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingD_3.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingD_4.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingD_5.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingD_6.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingD_7.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingD_8.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingD_9.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingD_10.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingD_11.jpg);"></div>
+						<div class="bs_ffbtn ">
+							<i class="fas fa-angle-right fa-4x"></i>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="sectionE" role="tabpanel" aria-labelledby="sectionE-tab">
+					<div class="bs_footer row mx-0">
+						<h3>絕代風華</h3>
+						<div class="bs_fmain" style="background-image: url(img/service/stylingE_demo.jpg);"></div>
+					</div>
+					<div class="bs_ffooter col-12 p-0 mt-5">
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingE_1.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingE_2.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingE_3.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingE_4.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingE_5.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingE_6.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingE_7.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingE_8.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingE_9.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingE_10.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingE_11.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingE_12.jpg);"></div>
+						<div class="bs_ffbtn ">
+							<i class="fas fa-angle-right fa-4x"></i>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="sectionF" role="tabpanel" aria-labelledby="sectionF-tab">
+					<div class="bs_footer row mx-0">
+						<h3>女神黛安娜</h3>
+						<div class="bs_fmain" style="background-image: url(img/service/stylingF_demo.jpg);"></div>
+					</div>
+					<div class="bs_ffooter col-12 p-0 mt-5">
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingF_1.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingF_2.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingF_3.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingF_4.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingF_5.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingF_6.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingF_7.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingF_8.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingF_9.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingF_10.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingF_11.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingF_12.jpg);"></div>
+						<div class="bs_ffpic" style="background-image: url(img/service/stylingF_13.jpg);"></div>
+						<div class="bs_ffbtn ">
+							<i class="fas fa-angle-right fa-4x"></i>
+						</div>
+					</div>
 				</div>
 			</div>
 
