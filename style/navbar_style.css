@@ -20,14 +20,48 @@
 }
 .nav_rwd{
     width: 100%;
+    position: relative;
 }
 .nav_rwd h5{
     line-height: 1.2em;
     border-bottom: 1px solid rgba(0, 0, 0, 0.35);
 }
-.collapse_btn i{
+.nav_rwd .collapse_btn i{
     line-height: 100px;
 }
+.nav_rwd .collapse_btn .btn_show{
+    display: flex;
+    /* display: none; */
+}
+/* .nav_rwd .collapse_btn .btn_hidden{
+    display: none;
+} */
+.nav_rwd .collapse_btn .mobile_menu_list{
+    width: 100vw;
+    height: 80vh;
+    background-color: rgba(253, 230, 228, 1.0);
+    position: absolute;
+    right: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.nav_rwd .collapse_btn .mobile_menu_list li{
+    
+    list-style: none;  
+text-align: center;
+margin: auto;
+font-size: 1.6rem;
+}
+.nav_rwd .collapse_btn .mobile_menu_list li a{
+    color: #444;
+    text-decoration: none;
+}
+
+
 .logo{
     width: 140px;
     height: 100px;
