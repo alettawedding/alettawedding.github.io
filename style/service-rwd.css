@@ -129,23 +129,10 @@
       {
         width:100%;
       }
-      .BS .bs_ffooter .bs_ffpic{
+      .BS .bs_ffooter .bs_ffpic
+      {
         width:15%;
+        background-size: cover;
+        background-position: center;
       }
-      .TP .tp_txt  
-      {
-        width: 50%;
-      }
-      .TP .tp_txt .tp_atxt .tp_apic  
-      {
-        width: 150px;
-        height: 150px;
-      }
-       /*.TP .tp_txt .tp_atxt h4{
-        width: 120px;
-        text-align: center;
-        line-height: 30px;
-        display: inline-block;
-        margin: 20px auto;
-      } */
 }
