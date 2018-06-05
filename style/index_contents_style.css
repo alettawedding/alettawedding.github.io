@@ -112,6 +112,7 @@
 
 .team_dn .team_img .team_info h2{
     text-align: right;
+    color:#444;
 }
 .news_img{
     width: 250px;
@@ -122,6 +123,7 @@
     line-height: 1.3em;
 }
 .news_info h4{
+    color:#444;
     animation-iteration-count: 2;
 }
 .section_news .section_sub .btn_next i{
@@ -161,6 +163,7 @@
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 50px;
+    color:#444;
     transition: 1s ;
 }
 .section_services .section_sub .hover_info{
@@ -177,6 +180,7 @@
 }
 .section_services .section_sub .services_img:hover .services_info h4{
     font-size: 1.6rem;
+    color:#444;
     transform:translateY(-75px);
 }
 .section_services .section_sub .services_img:hover .hover_info{

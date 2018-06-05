@@ -95,6 +95,7 @@
     letter-spacing: 6px;
     padding: 0;
     line-height: 95%;
+    color: #666;
 }
 .container .section_title h1{
     font-size: 2.1rem;
@@ -143,19 +144,21 @@
 
 @media screen and (max-width:768px){
 
-.container .section_subtitle h3{
+.container .section_subtitle h4{
     font-size: 1.4rem;
     padding: 0;
     margin: 0;
 }
 .footer .section_title h1{
 font-size: 2.2rem;
+color: #444;
 margin: 0;
 line-height: 100%;
 } 
 .footer .section_title h2{
     font-size: 2rem;
     letter-spacing: 3px;    
+    color: #444;
 }
 .footer .section_title .section_deco{
     width: calc(50% - 105px);
