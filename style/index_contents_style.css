@@ -70,13 +70,13 @@
     width:240px;
     height: 290px;
     position: absolute;
-    left: 25%;
+    left: 18%;
 }
 .sec_aletta_team.team_dn .team_img .sec_img{
     width:240px;
     height: 290px;
     position: absolute;
-    right: 25%;
+    right: 18%;
 }
 .sec_aletta_team.team_up .team_img .btn_next {
     line-height: 290px;
@@ -96,12 +96,12 @@
 }
 .team_up .team_img .team_info{
     position: absolute;
-    left: 48%;
+    left: 58%;
     top: 30%;
 }
 .team_dn .team_img .team_info{
     position: absolute;
-    right: 48%;
+    right: 58%;
     top: 30%;
 }
 .btn_next i, .btn_pre i{
@@ -116,7 +116,7 @@
 .news_img{
     width: 250px;
     height: 350px;
-    background-image: url(../img/news.jpg);
+    background-image: url(../img/index/news.jpg);
 }
 .news_info{
     line-height: 1.3em;
@@ -132,7 +132,21 @@
     height: 200px;
     background-color: #fff;
     position: relative;
-    transition: 0.8 cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.services_img:nth-child(1){
+    background-image: url(../img/index/service_renting.jpg);
+}
+.services_img:nth-child(2){
+    background-image: url(../img/index/service_photography.jpg);
+}
+.services_img:nth-child(3){
+    background-image: url(../img/index/service_documentary.jpg);
+}
+.services_img:nth-child(4){
+    background-image: url(../img/index/service_styling.jpg);
+}
+.services_img:nth-child(5){
+    background-image: url(../img/index/service_theme.jpg);
 }
 .section_services .section_sub .services_info{
     width: 100%;
@@ -141,7 +155,6 @@
     text-align: center;
     position: absolute;
     bottom: 0;
-    /* overflow: hidden; */
     transition: 1s ;
 }
 .section_services .section_sub .services_info h4{
@@ -159,11 +172,7 @@
     line-height: 150px;
     transition: 0.8s 0.2s;
 }
-/* .section_services .section_sub .services_img:hover{
-    opacity: 0.65;
-} */
 .section_services .section_sub .services_img:hover .services_info{
-    /* height: 100%; */
     background-color: rgba(253, 230, 228, 0);
 }
 .section_services .section_sub .services_img:hover .services_info h4{

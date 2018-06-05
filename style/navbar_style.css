@@ -91,10 +91,16 @@
     height: 2px;
     background-color: lightgrey;
 }
-.container .section_title h1,.section_title h2, .section_subtitle h3{
+.container .section_title h1,.section_title h2, .section_subtitle h4{
     letter-spacing: 6px;
     padding: 0;
     line-height: 95%;
+}
+.container .section_title h1{
+    font-size: 2.1rem;
+}
+.container .section_title h2{
+    font-size: 1.8rem;
 }
 .container .section_subtitle{
     width: 100%;
@@ -106,6 +112,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-repeat: repeat-y;
+}
+.container .section_subtitle h4{
+    font-size: 1.4rem;
 }
 .footer{
     width: 100vw;
