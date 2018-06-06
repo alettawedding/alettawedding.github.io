@@ -1,11 +1,13 @@
 .swiper-container {
     width: 100vw;
     height: 100vh;
+    position: relative;
+    z-index: 5;
+    background-color: rgba(253, 230, 228, 1.0);
 }
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #faf;
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -48,19 +50,19 @@
 }
 @media screen and (max-width:768px){
     .swiper-slide.swiper1{
-        background-image: url(../img/swiper1_mb.jpg);    
+        background-image: url(../img/index/swiper1_mb.jpg);    
     }
     .swiper-slide.swiper2{
-        background-image: url(../img/swiper2_mb.jpg);    
+        background-image: url(../img/index/swiper2_mb.jpg);    
     }
     .swiper-slide.swiper3{
-        background-image: url(../img/swiper3_mb.jpg);    
+        background-image: url(../img/index/swiper3_mb.jpg);    
     }
     .swiper-slide.swiper4{
-        background-image: url(../img/swiper4_mb.jpg);    
+        background-image: url(../img/index/swiper4_mb.jpg);    
     }
     .swiper-slide.swiper5{
-        background-image: url(../img/swiper5_mb.jpg);    
+        background-image: url(../img/index/swiper5_mb.jpg);    
     }
 
 }
