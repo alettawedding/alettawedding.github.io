@@ -64,11 +64,28 @@
                             <img src="img/logo.png" alt="Aletta">
                         </div>
                         <h5 class="mt-auto">回首頁</h5>
-                        <div class="collapse_btn d-none ml-auto">
-                            <i class="fas fa-bars fa-3x"></i>
-                        </div>
                     </a>
-
+                    <div class="collapse_btn ml-auto d-none">
+                        <i id="collapse_btn" class="fas fa-bars fa-3x btn_show"></i>
+                        <i id="close_btn" class="fas fa-times fa-3x btn_hidden"></i>
+                        <ul id="mobile_menu" class="mobile_menu_list btn_hidden row">
+                            <li>
+                                <a id="menu_DR" class="menu_btn" href="#DR">自助婚紗</a>
+                            </li>
+                            <li>
+                                <a id="menu_WP" class="menu_btn" href="#WP">婚紗攝影</a>
+                            </li>
+                            <li>
+                                <a id="menu_WD" class="menu_btn" href="#WD">婚禮紀錄</a>
+                            </li>
+                            <li>
+                                <a id="menu_BS" class="menu_btn" href="#BS">新娘秘書</a>
+                            </li>
+                            <li>
+                                <a id="menu_TP" class="menu_btn" href="#TP">主題攝影</a>
+                            </li>
+                        </ul>
+                    </div>
                     <ul class="navbar-nav d-none d-md-flex justify-content-around align-items-end">
                         <li class="nav-item">
                             <a class="nav-link" href="#aletta">關於我們
@@ -84,7 +101,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#services">服務項目
+                            <a class="nav-link" href="service.html">服務項目
                                 <br>Services</a>
                             <nav class="navbar navbar_sub navbar-expand navbar-light p-0">
                                 <ul class="navbar-nav mx-auto d-flex flex-column flex-md-row
@@ -134,23 +151,23 @@
         <div class="navbar_mb row justify-content-between d-md-none m-0">
             <a href="#aletta" class="btn col-3 p-0">
                 <img src="img/feather.svg" alt="">
-                <h4>關&nbsp;&nbsp;於
-                    <br>我&nbsp;&nbsp;們</h4>
+                <h4> &nbsp;關&nbsp;&nbsp;於
+                    <br>我&nbsp;&nbsp;們&nbsp;</h4>
             </a>
             <a href="#news" class="btn col-3 p-0">
                 <img src="img/bell.svg" alt="">
-                <h4>最&nbsp;&nbsp;新
+                <h4> &nbsp;最&nbsp;&nbsp;新
                     <br>消&nbsp;&nbsp;息</h4>
             </a>
-            <a href="#services" class="btn col-3 p-0">
+            <a href="service.html" class="btn col-3 p-0">
                 <img src="img/ring.svg" alt="">
-                <h4>服&nbsp;&nbsp;務
-                    <br>項&nbsp;&nbsp;目</h4>
+                <h4> &nbsp;服&nbsp;&nbsp;務
+                    <br>項&nbsp;&nbsp;目&nbsp;</h4>
             </a>
             <a href="#contacts" class="btn col-3 p-0">
                 <img src="img/bouquet.svg" alt="">
-                <h4>聯&nbsp;&nbsp;絡
-                    <br>我&nbsp;&nbsp;們</h4>
+                <h4> &nbsp;聯&nbsp;&nbsp;絡
+                    <br>我&nbsp;&nbsp;們&nbsp;</h4>
             </a>
         </div>
         <div id="aletta" class="section section_aletta container">
@@ -336,8 +353,6 @@
             </div>
         </div>
     </div>
-
-
     <div class="footer pt-3 mt-md-3">
         <div id="contacts" class="section section_contacts">
             <div class="section_title mt-md-4 d-flex justify-content-between align-items-center">
