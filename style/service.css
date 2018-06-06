@@ -299,11 +299,12 @@
     background-color: #ddd;
     background-image: url(../material/DR-footer-img/A-line/01_9.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center top;
+    overflow: hidden;
   }
   .pic_fotter .pic_footerM .pic_fimg.bgi9  {
     background-color: #ddd;
-    background-image: url(../material/DR-footer-img/A-line/01_10.jpg);
+    background-image: url(../material/DR-footer-img/A-line/01_10.png);
     background-size: cover;
     background-position: center;
   }
@@ -315,15 +316,17 @@
   }
   .pic_fotter .pic_footerM .pic_fimg.bgi11  {
     background-color: #ddd;
-    background-image: url(../material/DR-footer-img/A-line/01_12.jpg);
+    background-image: url(../material/DR-footer-img/A-line/01_12.png);
     background-size: cover;
-    background-position: center;
+    background-position: center top;
+    overflow: hidden;
   }
   .pic_fotter .pic_footerM .pic_fimg.bgi12  {
     background-color: #ddd;
     background-image: url(../material/DR-footer-img/A-line/01_14.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center top;
+    overflow: hidden;
   } 
   .pic_fotter .pic_fbtn  {
   	width: 60px;
