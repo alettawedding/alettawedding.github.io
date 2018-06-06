@@ -76,9 +76,6 @@
 
 						</div>
 					</div>
-<script>
-	$(#collapse_btn).onclick                                                                                                                                                                                                                                                                                                                                                          
-</script>
 					<ul class="navbar-nav d-none d-md-flex justify-content-around align-items-end">
 						<li class="nav-item">
 							<a class="nav-link" href="index.html#aletta">關於我們
@@ -231,7 +228,7 @@
 				</div>
 				<div class="pic_mainR"></div>
 			</div>
-			<div class="pic_fotter">
+			<div id="DR_photo_demo" class="pic_fotter">
 				<div class="pic_footerT"></div>
 				<div class="pic_footerM">
 					<div class="pic_fimg bgi1"></div>
@@ -240,19 +237,21 @@
 					<div class="pic_fimg bgi4"></div>
 					<div class="pic_fimg bgi5"></div>
 					<div class="pic_fimg bgi6"></div>
-					<!-- <div class="pic_fimg bgi7"></div>
+					<div class="pic_fimg bgi7"></div>
 					<div class="pic_fimg bgi8"></div>
 					<div class="pic_fimg bgi9"></div>
 					<div class="pic_fimg bgi10"></div>
 					<div class="pic_fimg bgi11"></div>
-					<div class="pic_fimg bgi12"></div> -->
-					<div class="pic_fbtn">
-						<div class="pic_fbarrow"></div>
-					</div>
+					<div class="pic_fimg bgi12"></div>
+				</div>
+				<div id="DR_openbtn" class="pic_fbtn">
+					<div class="pic_fbarrow"></div>
 				</div>
 				<div class="pic_footerF"></div>
 			</div>
 		</div>
+
+
 		<div id="WP" class="WP section">
 			<!-- 婚紗攝影 -->
 			<div class="section_title d-flex justify-content-between align-items-center">
@@ -337,16 +336,16 @@
 					</div>
 				</div>
 			</div>
-			<div class="wp_fotter">
+			<div class="wp_fotter row mx-0">
 				<!-- light box -->
-				<div class="wpLeft">
+				<div class="wpLeft col-12 col-md-6 col-lg-4 pl-0">
 					<div class="wp_fpic1"></div>
 					<div class="wp_fpic2"></div>
 					<div class="wp_fpic3"></div>
 					<div class="wp_fpic4"></div>
 					<div class="wp_fpic5"></div>
 				</div>
-				<div class="wpMiddle">
+				<div class="wpMiddle col-12 col-md-6 col-lg-4 px-0">
 					<div class="wp_fpic1"></div>
 					<div class="wp_fpic2"></div>
 					<div class="wp_fpic3"></div>
@@ -354,7 +353,7 @@
 					<div class="wp_fpic5"></div>
 					<div class="wp_fpic6"></div>
 				</div>
-				<div class="wpRight">
+				<div class="wpRight col-12 col-md-6 col-lg-4 pr-0">
 					<div class="wp_fpic1"></div>
 					<div class="wp_fpic2"></div>
 					<div class="wp_fpic3"></div>
@@ -687,6 +686,17 @@
 				}
 			}
 		});
+	</script>
+	<script>
+		var oOpenBtn = document.querySelector("#DR_openbtn");
+		var oPhotoDemo = document.querySelector("#DR_photo_demo");
+		oOpenBtn.onclick = function () {
+			oOpenBtn.classList.remove("pic_fbtn");
+			oPhotoDemo.classList.add("unfold");
+			
+			console.log(123555)
+		}
+
 	</script>
 
 

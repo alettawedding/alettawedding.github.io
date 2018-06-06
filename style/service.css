@@ -231,19 +231,17 @@
 /* DR_footer */
   .pic_fotter  {
     width: 75vw;
+    overflow: hidden;
+    position: relative;
+    margin: 150px 0;
   	/* background-color: #ff0; */
-  	display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
   }
   .pic_fotter .pic_footerT  {
-  	width: 100%;
-  	height: 200px;
+  
   	/* background-color: #bbb; */
   }
   .pic_fotter .pic_footerM  {
-  	width: 100%;
+  	width: auto;
   	height: 200px;
   	/* background-color: #bbb; */
   	display: flex;
@@ -251,12 +249,10 @@
     align-items: center;
   }
   .pic_fotter .pic_footerM .pic_fimg  {
-  	width: 15%;
+  	width: 150px;
   	height: 100%;
     /* border: solid 0.1px; */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+   flex: 0 0 150px;
   }
   .pic_fotter .pic_footerM .pic_fimg.bgi1  {
     background-color: #ddd;
@@ -294,7 +290,7 @@
     background-size: cover;
     background-position: center;
   }
-  /* .pic_fotter .pic_footerM .pic_fimg.bgi7  {
+  .pic_fotter .pic_footerM .pic_fimg.bgi7  {
     background-color: #ddd;
     background-image: url(../material/DR-footer-img/A-line/01_8.jpg);
     background-size: cover;
@@ -334,28 +330,32 @@
     background-size: cover;
     background-position: center;
     overflow: hidden;
-  } */
-  .pic_fotter .pic_footerM .pic_fbtn  {
-  	width: 10%;
-    height: 100%;
+  } 
+  .pic_fotter .pic_fbtn  {
+  	width: 60px;
+    height: 200px;
     /* background-color: #bbb; */
-  	display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 7;
+    background-color: #fff;
+    padding-top: 75px;
   }
-  .pic_fotter .pic_footerM .pic_fbtn .pic_fbarrow  {
-    width: 50%;
-    height:20%;
+  .pic_fotter .pic_fbtn .pic_fbarrow  {
+    width: 40px;
+    height:50px;
     background-image: url(../element/arrow.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin: auto;
+  }
+  .unfold{
+    overflow-x: scroll;
   }
   .pic_fotter .pic_footerF  {
-  	width: 100%;
-  	height: 200px;
+  	
   	/* background-color: #bbb; */
   }
 /* WP */
@@ -514,7 +514,7 @@
   }
 /* WP_fotter */
   .WP .wp_fotter  {
-    width: 98vw;
+    width: 100%;
     height: 80vh;
     /* background-color: #bbb; */
     display: flex;
@@ -526,8 +526,7 @@
 
   }
   .WP .wp_fotter .wpLeft,.WP .wp_fotter .wpMiddle,.WP .wp_fotter .wpRight  {
-    width: 30vw;
-    margin-left: 5px;
+    width: 100%;
     /* background-color: #bbb; */
     display: flex;
     flex-direction: column;
@@ -536,7 +535,7 @@
   }
   .WP .wp_fotter .wpLeft .wp_fpic1
   {
-    width: 30vw;
+    width: 100%;
     height: 350px;
     background-image: url(../material/WP/lightbox/01.jpg);
     background-size: cover;
@@ -545,7 +544,7 @@
   }
   .WP .wp_fotter .wpLeft .wp_fpic2
   {
-    width: 30vw;
+    width: 100%;
     height: 250px;
     background-image: url(../material/WP/lightbox/02.jpg);
     background-size: cover;
@@ -554,7 +553,7 @@
   }
   .WP .wp_fotter .wpLeft .wp_fpic3
   {
-    width: 30vw;
+    width: 100%;
     height: 400px;
     background-image: url(../material/WP/lightbox/03.jpg);
     background-size: cover;
@@ -563,7 +562,7 @@
   }
   .WP .wp_fotter .wpLeft .wp_fpic4
   {
-    width: 30vw;
+    width: 100%;
     height: 250px;
     background-image: url(../material/WP/lightbox/04.jpg);
     background-size: cover;
@@ -572,7 +571,7 @@
   }
   .WP .wp_fotter .wpLeft .wp_fpic5
   {
-    width: 30vw;
+    width: 100%;
     height: 600px;
     background-image: url(../material/WP/lightbox/19.jpg);
     background-size: cover;
@@ -581,7 +580,7 @@
   }
   .WP .wp_fotter .wpMiddle .wp_fpic1
   {
-    width: 30vw;
+    width: 100%;
     height: 250px;
     background-image: url(../material/WP/lightbox/06.jpg);
     background-size: cover;
@@ -590,7 +589,7 @@
   }
   .WP .wp_fotter .wpMiddle .wp_fpic2
   {
-    width: 30vw;
+    width: 100%;
     height: 300px;
     background-image: url(../material/WP/lightbox/20.jpg);
     background-size: cover;
@@ -599,7 +598,7 @@
   }
   .WP .wp_fotter .wpMiddle .wp_fpic3
   {
-    width: 30vw;
+    width: 100%;
     height: 440px;
     background-image: url(../material/WP/lightbox/08.jpg);
     background-size: cover;
@@ -608,7 +607,7 @@
   }
   .WP .wp_fotter .wpMiddle .wp_fpic4
   {
-    width: 30vw;
+    width: 100%;
     height: 250px;
     background-image: url(../material/WP/lightbox/09.jpg);
     background-size: cover;
@@ -617,7 +616,7 @@
   }
   .WP .wp_fotter .wpMiddle .wp_fpic5
   {
-    width: 30vw;
+    width: 100%;
     height: 350px;
     background-image: url(../material/WP/lightbox/10.jpg);
     background-size: cover;
@@ -626,7 +625,7 @@
   }
   .WP .wp_fotter .wpMiddle .wp_fpic6
   {
-    width: 30vw;
+    width: 100%;
     height: 250px;
     background-image: url(../material/WP/lightbox/21.jpg);
     background-size: cover;
@@ -635,7 +634,7 @@
   }
   .WP .wp_fotter .wpRight .wp_fpic1
   {
-    width: 30vw;
+    width: 100%;
     height: 350px;
     background-image: url(../material/WP/lightbox/11.jpg);
     background-size: cover;
@@ -644,7 +643,7 @@
   }
   .WP .wp_fotter .wpRight .wp_fpic2
   {
-    width: 30vw;
+    width: 100%;
     height: 350px;
     background-image: url(../material/WP/lightbox/12.jpg);
     background-size: cover;
@@ -653,7 +652,7 @@
   }
   .WP .wp_fotter .wpRight .wp_fpic3
   {
-    width: 30vw;
+    width: 100%;
     height: 400px;
     background-image: url(../material/WP/lightbox/13.jpg);
     background-size: cover;
@@ -662,7 +661,7 @@
   }
   .WP .wp_fotter .wpRight .wp_fpic4
   {
-    width: 30vw;
+    width: 100%;
     height: 300px;
     background-image: url(../material/WP/lightbox/14.jpg);
     background-size: cover;
@@ -671,7 +670,7 @@
   }
   .WP .wp_fotter .wpRight .wp_fpic5
   {
-    width: 30vw;
+    width: 100%;
     height: 450px;
     background-image: url(../material/WP/lightbox/15.jpg);
     background-size: cover;
