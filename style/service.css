@@ -64,20 +64,19 @@
     background-color: rgb(253,222,207);
   }
   .DR .pic_top .dr_card .dr_card1.c1  {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
-    background-image: url(../material/DR-pic-top/A-line-2.jpg);
+    align-items:center; */
+    background-image: url(../material/DR-pic-top/A-line.jpg);
     background-size: cover;
-    /* background-position: center; */
   }
   .DR .pic_top .dr_card .dr_card1.c2  {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    background-image: url(../material/DR-pic-top/Ballgown-2.jpg);
+    background-image: url(../material/DR-pic-top/Ballgown.jpg);
     background-size: cover;
     /* background-position: center; */
   }
@@ -86,7 +85,7 @@
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    background-image: url(../material/DR-pic-top/Mermaid-2.jpg);
+    background-image: url(../material/DR-pic-top/Mermaid.jpg);
     background-size: cover;
     /* background-position: center; */
   }
@@ -95,7 +94,7 @@
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    background-image: url(../material/DR-pic-top/Sheath-3.jpg);
+    background-image: url(../material/DR-pic-top/Sheath.jpg);
     background-size: cover;
     /* background-position: center; */
   }
@@ -104,7 +103,7 @@
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    background-image: url(../material/DR-pic-top/Straight\ Across-2.jpg);
+    background-image: url(../material/DR-pic-top/Straight-Across-2.jpg);
     background-size: cover;
     /* background-position: center; */
   }
@@ -122,7 +121,7 @@
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    background-image: url(../material/DR-pic-top/High\ Neck-2.jpg);
+    background-image: url(../material/DR-pic-top/High-Neck-2.jpg);
     background-size: cover;
     /* background-position: center; */
   }
@@ -411,42 +410,42 @@
     margin-bottom: 50px;
   }
   .WP .wp_top .wp_tblock .wp_tbimg.d1  {
-    background-image: url(../material/WP/blur-care-close-up-236275.jpg);
+    background-image: url(../material/WP/01-與你到遠方/01_5.jpg);
     background-size: cover;
     background-position: center;
   }
   .WP .wp_top .wp_tblock .wp_tbimg.d2  {
-    background-image: url(../material/WP/adults-beautiful-bride-871854.jpg);
+    background-image: url(../material/WP/02-華麗年代復刻/02_3.jpg);
     background-size: cover;
     background-position: center top;
   }
   .WP .wp_top .wp_tblock .wp_tbimg.d3  {
-    background-image: url(../material/WP/beach-clouds-couple-931796.jpg);
+    background-image: url(../material/WP/03-愛在希臘黎明時/03_8.jpg);
     background-size: cover;
     background-position: center;
   }
   .WP .wp_top .wp_tblock .wp_tbimg.d4  {
-    background-image: url(../material/WP/adult-affection-blur-566456.jpg);
+    background-image: url(../material/WP/04-愛麗絲仙境森林/04_4.jpg);
     background-size: cover;
     background-position: center top;
   }
   .WP .wp_top .wp_tblock .wp_tbimg.d5  {
-    background-image: url(../material/WP/bride-ceremony-daylight-794356.jpg);
+    background-image: url(../material/WP/05-戀戀英倫皇家/05_1.jpg);
     background-size: cover;
     background-position: center;
   }
   .WP .wp_top .wp_tblock .wp_tbimg.d6  {
-    background-image: url(../material/WP/bouquet-bride-dress-1105159.jpg);
+    background-image: url(../material/WP/06-普羅旺斯田園/06_4.jpg);
     background-size: cover;
     background-position: center top;
   }
   .WP .wp_top .wp_tblock .wp_tbimg.d7  {
-    background-image: url(../material/WP/adult-affection-beach-371312.jpg);
+    background-image: url(../material/WP/07-相約維多莉亞港/07_1.jpg);
     background-size: cover;
     background-position: center;
   }
   .WP .wp_top .wp_tblock .wp_tbimg.d8  {
-    background-image: url(../material/WP/architecture-background-buildings-933118.jpg);
+    background-image: url(../material/WP/08-愛在巴黎日落時/08_3.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -464,7 +463,7 @@
     width: 100%;
     height: 500px;
     background-color: #ccc;
-    background-image: url(../material/WP/architecture-background-buildings-933118.jpg);
+    background-image: url(../material/WP//08-愛在巴黎日落時/08_3.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -515,13 +514,16 @@
   }
 /* WP_fotter */
   .WP .wp_fotter  {
-    width: 100vw;
+    width: 98vw;
+    height: 80vh;
     /* background-color: #bbb; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    overflow: auto;
+
   }
   .WP .wp_fotter .wpLeft,.WP .wp_fotter .wpMiddle,.WP .wp_fotter .wpRight  {
     width: 30vw;
@@ -530,6 +532,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    /* overflow: hidden; */
   }
   .WP .wp_fotter .wpLeft .wp_fpic1
   {
@@ -591,13 +594,13 @@
     height: 300px;
     background-image: url(../material/WP/lightbox/20.jpg);
     background-size: cover;
-    background-position:right;
+    background-position:center;
     margin-bottom: 10px;
   }
   .WP .wp_fotter .wpMiddle .wp_fpic3
   {
     width: 30vw;
-    height: 550px;
+    height: 440px;
     background-image: url(../material/WP/lightbox/08.jpg);
     background-size: cover;
     background-position: center;
@@ -619,6 +622,15 @@
     background-image: url(../material/WP/lightbox/10.jpg);
     background-size: cover;
     background-position: left;
+    margin-bottom: 10px;
+  }
+  .WP .wp_fotter .wpMiddle .wp_fpic6
+  {
+    width: 30vw;
+    height: 250px;
+    background-image: url(../material/WP/lightbox/21.jpg);
+    background-size: cover;
+    background-position: center;
     margin-bottom: 10px;
   }
   .WP .wp_fotter .wpRight .wp_fpic1
@@ -666,16 +678,15 @@
     background-position: center;
     margin-bottom: 10px;
   }
-  .WP .wp_fotter .wp_fbtn  {
+  /* .WP .wp_fotter .wp_fbtn  {
     width: 75vw;
     height: 10vh;
-    /* background-color: #bbb; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-  }
+  } */
 /* WD */
   .WD  {
     width:100%;
