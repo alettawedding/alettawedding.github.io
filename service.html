@@ -48,11 +48,12 @@
 		<div class="navbar_pc sticky-top">
 			<nav class="navbar navbar-expand navbar-light py-0">
 				<div class="collapse navbar-collapse d-flex justify-content-center" id="navbarTogglerDemo01">
-					<div class="nav_rwd d-flex d-md-none justify-content-between px-4">
-						<a class="navbar-brand logo" href="index.html#index_home">
+					<div class="nav_rwd d-flex d-md-none justify-content-between px-3">
+						<a class="navbar-brand logo d-flex" href="index.html#index_home">
 							<img src="img/logo.png" alt="Aletta">
+							<h5 class="mt-auto">回首頁</h5>
 						</a>
-						<h5 class="mt-auto">回首頁</h5>
+						
 						<div class="collapse_btn ml-auto">
 							<i id="collapse_btn" class="fas fa-bars fa-3x btn_show"></i>
 							<i id="close_btn" class="fas fa-times fa-3x btn_hidden"></i>
@@ -76,10 +77,6 @@
 
 						</div>
 					</div>
-<<<<<<< HEAD
-=======
-
->>>>>>> c1caf4dacf8885316a4be85c83c35b69a1f809b3
 					<ul class="navbar-nav d-none d-md-flex justify-content-around align-items-end">
 						<li class="nav-item">
 							<a class="nav-link" href="index.html#aletta">關於我們
@@ -624,42 +621,42 @@
 					<h4 class="px-auto">孕婦嬰兒照</h4>
 				</div>
 				<div class="tp_atxt col-3 row mb-5">
-						<div class="flip-container mx-auto" ontouchstart="this.classList.toggle('hover');">
-								<div class="flipper">
-									<div class="front">
-										<div class="tp_apic" style="background-image: url(img/service/TP2.jpg);"></div>
-									</div>
-									<div class="back">
-										<div class="tp_apic mx-auto" style="background-image: url(img/service/TP2_flip.jpg);"></div>
-									</div>
-								</div>
+					<div class="flip-container mx-auto" ontouchstart="this.classList.toggle('hover');">
+						<div class="flipper">
+							<div class="front">
+								<div class="tp_apic" style="background-image: url(img/service/TP2.jpg);"></div>
 							</div>
+							<div class="back">
+								<div class="tp_apic mx-auto" style="background-image: url(img/service/TP2_flip.jpg);"></div>
+							</div>
+						</div>
+					</div>
 					<h4>家族親子照</h4>
 				</div>
 				<div class="tp_atxt col-3 row mb-5">
-						<div class="flip-container mx-auto" ontouchstart="this.classList.toggle('hover');">
-								<div class="flipper">
-									<div class="front">
-										<div class="tp_apic" style="background-image: url(img/service/TP3.jpg);"></div>
-									</div>
-									<div class="back">
-										<div class="tp_apic mx-auto" style="background-image: url(img/service/TP3_flip.jpg);"></div>
-									</div>
-								</div>
+					<div class="flip-container mx-auto" ontouchstart="this.classList.toggle('hover');">
+						<div class="flipper">
+							<div class="front">
+								<div class="tp_apic" style="background-image: url(img/service/TP3.jpg);"></div>
 							</div>
+							<div class="back">
+								<div class="tp_apic mx-auto" style="background-image: url(img/service/TP3_flip.jpg);"></div>
+							</div>
+						</div>
+					</div>
 					<h4>寵物寫真照</h4>
 				</div>
 				<div class="tp_atxt col-3 row mb-5">
-						<div class="flip-container mx-auto" ontouchstart="this.classList.toggle('hover');">
-								<div class="flipper">
-									<div class="front">
-										<div class="tp_apic" style="background-image: url(img/service/TP4.jpg);"></div>
-									</div>
-									<div class="back">
-										<div class="tp_apic mx-auto" style="background-image: url(img/service/TP4_flip.jpg);"></div>
-									</div>
-								</div>
+					<div class="flip-container mx-auto" ontouchstart="this.classList.toggle('hover');">
+						<div class="flipper">
+							<div class="front">
+								<div class="tp_apic" style="background-image: url(img/service/TP4.jpg);"></div>
 							</div>
+							<div class="back">
+								<div class="tp_apic mx-auto" style="background-image: url(img/service/TP4_flip.jpg);"></div>
+							</div>
+						</div>
+					</div>
 					<h4>藝術沙龍照</h4>
 				</div>
 			</div>
@@ -730,28 +727,25 @@
 		oOpenBtn.onclick = function () {
 			oOpenBtn.classList.remove("pic_fbtn");
 			oPhotoDemo.classList.add("unfold");
-			
-			console.log(123555)
 		}
 
 	</script>
-
-		var oCollapse_btn = document.querySelector("#collapse_btn")
-		var oClose_btn = document.querySelector("#close_btn")
-		var oMobile_menu = document.querySelector("#mobile_menu")
+	<script>
+		var oCollapse_btn = document.querySelector("#collapse_btn");
+		var oClose_btn = document.querySelector("#close_btn");
+		var oMobile_menu = document.querySelector("#mobile_menu");
 		oCollapse_btn.onclick = function () {
 			oCollapse_btn.classList.add("btn_hidden");
-			oClose_btn.classList.remove("btn_hidden");
-			oMobile_menu.classList.remove("btn_hidden")
+			oClose_btn.classList.remove("btn_hidden"); oMobile_menu.classList.remove("btn_hidden")
 		}
 		oClose_btn.onclick = function () {
-			oMobile_menu.classList.add("btn_hidden");
-			oClose_btn.classList.add("btn_hidden");
+			oMobile_menu.classList.add("btn_hidden"); 
+			oClose_btn.classList.add("btn_hidden"); 
 			oCollapse_btn.classList.remove("btn_hidden");
 		}
 		$(".menu_btn").click(function () {
-			oMobile_menu.classList.add("btn_hidden");
-			oClose_btn.classList.add("btn_hidden");
+			oMobile_menu.classList.add("btn_hidden"); 
+			oClose_btn.classList.add("btn_hidden"); 
 			oCollapse_btn.classList.remove("btn_hidden");
 		});
 	</script>
