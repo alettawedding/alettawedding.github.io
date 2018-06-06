@@ -236,10 +236,7 @@
     margin: 150px 0;
   	/* background-color: #ff0; */
   }
-  .pic_fotter .pic_footerT  {
   
-  	/* background-color: #bbb; */
-  }
   .pic_fotter .pic_footerM  {
   	width: auto;
   	height: 200px;
@@ -354,10 +351,7 @@
   .unfold{
     overflow-x: scroll;
   }
-  .pic_fotter .pic_footerF  {
-  	
-  	/* background-color: #bbb; */
-  }
+  
 /* WP */
   .WP  {
     width:100%;
