@@ -91,13 +91,13 @@
     background-image: url(../img/index/service_photography.jpg);
 }
 .services_img:nth-child(3){
-    background-image: url(../img/index/service_documentary.jpg);
+    background-image: url(../img/index/service_documentary_mb.jpg);
 }
 .services_img:nth-child(4){
-    background-image: url(../img/index/service_styling.jpg);
+    background-image: url(../img/index/service_styling_mb.jpg);
 }
 .services_img:nth-child(5){
-    background-image: url(../img/index/service_theme.jpg);
+    background-image: url(../img/index/service_theme_mb.jpg);
 }
 .section_services .section_sub .services_info{
     height: 100px;

@@ -56,29 +56,27 @@
 						<div class="collapse_btn ml-auto">
 							<i id="collapse_btn" class="fas fa-bars fa-3x btn_show"></i>
 							<i id="close_btn" class="fas fa-times fa-3x btn_hidden"></i>
-							<ul class="mobile_menu_list btn_hidden row">
+							<ul id="mobile_menu" class="mobile_menu_list btn_hidden row">
 								<li>
-									<a href="#DR">自助婚紗</a>
+									<a id="menu_DR" class="menu_btn" href="#DR">自助婚紗</a>
 								</li>
 								<li>
-									<a href="#WP">婚紗攝影</a>
+									<a id="menu_WP" class="menu_btn" href="#WP">婚紗攝影</a>
 								</li>
 								<li>
-									<a href="#WD">婚禮紀錄</a>
+									<a id="menu_WD" class="menu_btn" href="#WD">婚禮紀錄</a>
 								</li>
 								<li>
-									<a href="#BS">新娘秘書</a>
+									<a id="menu_BS" class="menu_btn" href="#BS">新娘秘書</a>
 								</li>
 								<li>
-									<a href="#TP">主題攝影</a>
+									<a id="menu_TP" class="menu_btn" href="#TP">主題攝影</a>
 								</li>
 							</ul>
 
 						</div>
 					</div>
-<script>
-	$(#collapse_btn).onclick                                                                                                                                                                                                                                                                                                                                                          
-</script>
+
 					<ul class="navbar-nav d-none d-md-flex justify-content-around align-items-end">
 						<li class="nav-item">
 							<a class="nav-link" href="index.html#aletta">關於我們
@@ -671,15 +669,12 @@
 			breakpoints: {
 				1024: {
 					slidesPerView: 4,
-
 				},
 				768: {
 					slidesPerView: 3,
-
 				},
 				640: {
 					slidesPerView: 2,
-					spaceBetween: 5,
 				},
 				320: {
 					slidesPerView: 1,
@@ -687,7 +682,26 @@
 			}
 		});
 	</script>
-
+	<script>
+		var oCollapse_btn = document.querySelector("#collapse_btn")
+		var oClose_btn = document.querySelector("#close_btn")
+		var oMobile_menu = document.querySelector("#mobile_menu")
+		oCollapse_btn.onclick = function () {
+			oCollapse_btn.classList.add("btn_hidden");
+			oClose_btn.classList.remove("btn_hidden");
+			oMobile_menu.classList.remove("btn_hidden")
+		}
+		oClose_btn.onclick = function () {
+			oMobile_menu.classList.add("btn_hidden");
+			oClose_btn.classList.add("btn_hidden");
+			oCollapse_btn.classList.remove("btn_hidden");
+		}
+		$(".menu_btn").click(function () {
+			oMobile_menu.classList.add("btn_hidden");
+			oClose_btn.classList.add("btn_hidden");
+			oCollapse_btn.classList.remove("btn_hidden");
+		});
+	</script>
 
 
 </body>
