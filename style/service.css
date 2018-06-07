@@ -38,6 +38,7 @@
   	display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .DR .pic_top .dr_card .dr_card1  {
   	width: 50%;
@@ -220,6 +221,9 @@
     align-items: center;
     color: #666666;
   }
+  .pic_main .pic_mainL .pic_mainLB p{
+    font-size: 1.25rem;
+  }
   .pic_main .pic_mainR  {
   	width: 70%;
   	height: 500px;
@@ -231,7 +235,6 @@
 /* DR_footer */
   .pic_fotter  {
     width: 75vw;
-    overflow: hidden;
     position: relative;
     margin: 150px 0;
   	/* background-color: #ff0; */
@@ -296,35 +299,33 @@
     background-color: #ddd;
     background-image: url(../material/DR-footer-img/A-line/01_9.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     overflow: hidden;
   }
   .pic_fotter .pic_footerM .pic_fimg.bgi9  {
     background-color: #ddd;
-    background-image: url(../material/DR-footer-img/A-line/01_10.jpg);
+    background-image: url(../material/DR-footer-img/A-line/01_10.png);
     background-size: cover;
     background-position: center;
-    overflow: hidden;
   }
   .pic_fotter .pic_footerM .pic_fimg.bgi10  {
     background-color: #ddd;
     background-image: url(../material/DR-footer-img/A-line/01_11.jpg);
     background-size: cover;
     background-position: center;
-    overflow: hidden;
   }
   .pic_fotter .pic_footerM .pic_fimg.bgi11  {
     background-color: #ddd;
-    background-image: url(../material/DR-footer-img/A-line/01_12.jpg);
+    background-image: url(../material/DR-footer-img/A-line/01_12.png);
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     overflow: hidden;
   }
   .pic_fotter .pic_footerM .pic_fimg.bgi12  {
     background-color: #ddd;
     background-image: url(../material/DR-footer-img/A-line/01_14.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     overflow: hidden;
   } 
   .pic_fotter .pic_fbtn  {
@@ -338,7 +339,7 @@
     background-color: #fff;
     padding-top: 75px;
   }
-  .pic_fotter .pic_fbtn .pic_fbarrow  {
+  .pic_fbarrow  {
     width: 40px;
     height:50px;
     background-image: url(../element/arrow.svg);
@@ -346,9 +347,6 @@
     background-size: cover;
     background-position: center;
     margin: auto;
-  }
-  .unfold{
-    overflow-x: scroll;
   }
 /* WP */
   .WP  {
@@ -368,7 +366,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    margin-bottom: 10px;
+    margin: 50px 0 65px;
   }
   .WP .wp_top .wp_tblock  {
     width: 25%;
@@ -383,7 +381,7 @@
     width: 80%;
     height: 10%;
     /* background-color: #aaa; */
-    font-size: 1.2em;
+    font-size: 1.35em;
     margin-bottom: 10px;
     color: #666666;
     display: flex;
@@ -391,15 +389,13 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
   }
   .WP .wp_top .wp_tblock .wp_tbimg  {
     width: 150px;
     height: 150px;
     background-color: #aaa;
     border-radius: 50%;
-    margin-bottom: 10px;
-    margin-bottom: 50px;
+    margin: 20px 0;
   }
   .WP .wp_top .wp_tblock .wp_tbimg.d1  {
     background-image: url(../material/WP/01-與你到遠方/01_5.jpg);
@@ -481,8 +477,6 @@
     width: 60%;
     height: 100%;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
@@ -491,18 +485,17 @@
     height: 30%;
     border: solid 2px #808080;
     font-size: 1.5em;
+    word-break: keep-all;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
   .WP .wp_main .wp_mbottom .wp_fbR .wp_fbRtxt  {
     width: 60%;
-    height: 10%;
-    font-size: 1em;
+    font-size: 1.25rem;
     /* background-color: #808080; */
     margin-bottom: 10px;
+    word-break: keep-all;
   }
 /* WP_fotter */
   .WP .wp_fotter  {
@@ -700,16 +693,20 @@
   .WD .wd_footer .wd_fL  {
     width: 55%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .WD .wd_footer .wd_fL h2{
-    line-height: 180px;
     text-align: center;
     color: #444;
   }
   .WD .wd_footer .wd_fR  {
     width: 35%;
     height: 100%;
-    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .WD .wd_footer .wd_fR h3{
     line-height: 40px;
@@ -771,17 +768,16 @@
     background-position: center;
   }
   .BS .bs_ffooter  {
-    width:100%;
+    width:auto;
     height: 200px;
     background-color: #fff;
     box-sizing: border-box;
-    overflow: hidden;
     position: relative;
+    display: flex;
   }
   .BS .bs_ffooter .bs_ffpic{
-    width: calc(16.5% - 10px);
     height: 100%;
-    display: inline-block;
+    flex: 0 0 150px;
     background-size: cover;
     background-position: center;
   }
@@ -793,6 +789,8 @@
     position: absolute;
     top: 0;
     right: 0;    
+    display: flex;
+    align-items: center;
   }
   .BS .bs_ffooter .bs_ffbtn i{
     line-height: 200px;
@@ -802,7 +800,7 @@
 /* TP */
   .TP  {
     widows: 100vw;
-    height: 100vh;
+    height: auto;
     /* background-color: #bbb; */
   }
   .TP .tp_txt  {
@@ -856,14 +854,23 @@
     backface-visibility: hidden;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50%;
+    
   }  
   .front {
     z-index: 2;
+    transform: translateX(-50%);
   }  
   .back {
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-    transform: rotateY(180deg);
+    -webkit-transform: translateX(-50%) rotateY(180deg);
+    -moz-transform: translateX(-50%) rotateY(180deg);
+    -o-transform: translateX(-50%) rotateY(180deg);
+    transform: translateX(-50%) rotateY(180deg);
+  }
+  .fold{
+    /* left: 0; */
+    overflow: hidden;
+  }
+  .unfold{
+    overflow-x: scroll;
   }

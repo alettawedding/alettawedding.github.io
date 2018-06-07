@@ -53,7 +53,7 @@
 							<img src="img/logo.png" alt="Aletta">
 							<h5 class="mt-auto">回首頁</h5>
 						</a>
-						
+
 						<div class="collapse_btn ml-auto">
 							<i id="collapse_btn" class="fas fa-bars fa-3x btn_show"></i>
 							<i id="close_btn" class="fas fa-times fa-3x btn_hidden"></i>
@@ -70,72 +70,18 @@
 								<li>
 									<a id="menu_BS" class="menu_btn" href="#BS">新娘秘書</a>
 								</li>
-								<li>
-									<a id="menu_TP" class="menu_btn" href="#TP">主題攝影</a>
+								<li class="nav-item">
+									<a id="menu_TP" class="nav-link" href="#TP">
+										主題攝影</a>
+								</li>
+								<li class="nav-item">
+									<a id="menu_contacts" class="nav-link" href="#contacts">
+										聯絡我們
+									</a>
 								</li>
 							</ul>
-
 						</div>
 					</div>
-					<ul class="navbar-nav d-none d-md-flex justify-content-around align-items-end">
-						<li class="nav-item">
-							<a class="nav-link" href="index.html#aletta">關於我們
-								<br>Aletta</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="index.html#news">最新消息
-								<br>News</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link logo" href="index.html#index_home">
-								<img src="img/logo.png" alt="Aletta">
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#banner">服務項目
-								<br>Services</a>
-							<nav class="navbar navbar_sub navbar-expand navbar-light p-0">
-								<ul class="navbar-nav mx-auto d-flex flex-column flex-md-row
-                                        justify-content-around align-items-center">
-									<li class="nav-item"></li>
-									<li class="nav-item">
-										<a class="nav-link" href="#DR">
-											<p class="mb-2">自助婚紗</p>Dress
-											<br>Renting</a>
-									</li>
-									<li class="nav-item"></li>
-									<li class="nav-item">
-										<a class="nav-link" href="#WP">
-											<p class="mb-2">婚紗攝影</p>Wedding
-											<br>Photography</a>
-									</li>
-									<li class="nav-item"></li>
-									<li class="nav-item">
-										<a class="nav-link" href="#WD">
-											<p class="mb-2">婚禮紀錄</p>Wedding
-											<br>Documentary</a>
-									</li>
-									<li class="nav-item"></li>
-									<li class="nav-item">
-										<a class="nav-link" href="#BS">
-											<p class="mb-2">新娘秘書</p>Bridal
-											<br>Styling</a>
-									</li>
-									<li class="nav-item"></li>
-									<li class="nav-item">
-										<a class="nav-link" href="#TP">
-											<p class="mb-2">主題攝影</p>Theme
-											<br>Photography</a>
-									</li>
-									<li class="nav-item"></li>
-								</ul>
-							</nav>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#contacts">聯絡我們
-								<br>Contacts</a>
-						</li>
-					</ul>
 				</div>
 			</nav>
 		</div>
@@ -154,7 +100,7 @@
 				<div class="dr_card">
 					<div class="dr_card1 c1"></div>
 					<div class="dr_card2">
-						<div class="dr_cardT" bg-#FDDECF;>A字形</div>
+						<div class="dr_cardT">A字形</div>
 						<div class="dr_cardB">A-line</div>
 					</div>
 				</div>
@@ -227,10 +173,10 @@
 						<p>內容待輸入內容待輸入</p>
 					</div>
 				</div>
+
 				<div class="pic_mainR"></div>
 			</div>
-			<div id="DR_photo_demo" class="pic_fotter">
-				<div class="pic_footerT"></div>
+			<div id="DR_photo_demo" class="pic_fotter fold">
 				<div class="pic_footerM">
 					<div class="pic_fimg bgi1"></div>
 					<div class="pic_fimg bgi2"></div>
@@ -248,7 +194,6 @@
 				<div id="DR_openbtn" class="pic_fbtn">
 					<div class="pic_fbarrow"></div>
 				</div>
-				<div class="pic_footerF"></div>
 			</div>
 		</div>
 
@@ -263,109 +208,153 @@
 				</div>
 				<div class="section_deco"></div>
 			</div>
-			<div class="wp_top">
-				<div class="wp_tblock">
-					<div class="wp_tbtitle">
-						與你到遠方
-						<!-- <h3>與你到遠方</h3> -->
+
+			<ul class="nav nav-tabs wp_top col-12" id="myTab" role="tablist">
+				<li class="nav-item wp_tblock col-4 mt-5">
+					<a class="nav-link active" id="WP_secA-tab" data-toggle="tab" href="#WP_secA" role="tab" aria-controls="WP_secA" aria-selected="true">
+						<div class="wp_tbtitle">
+							與你到遠方
+							<!-- <h3>與你到遠方</h3> -->
+						</div>
+						<div class="wp_tbimg d1"></div>
+					</a>
+				</li>
+				<li class="nav-item wp_tblock col-4 mt-5">
+					<a class="nav-link" id="WP_secB-tab" data-toggle="tab" href="#WP_secB" role="tab" aria-controls="WP_secB" aria-selected="false">
+						<div class="wp_tbtitle">
+							華麗年代復刻
+							<!-- <h3>華麗年代復刻</h3> -->
+						</div>
+						<div class="wp_tbimg d2"></div>
+					</a>
+				</li>
+				<li class="nav-item wp_tblock col-4 mt-5">
+					<a class="nav-link" id="WP_secC-tab" data-toggle="tab" href="#WP_secC" role="tab" aria-controls="WP_secC" aria-selected="false">
+						<div class="wp_tbtitle">
+							愛在希臘黎明時
+							<!-- <h3>愛在希臘黎明時</h3> -->
+						</div>
+						<div class="wp_tbimg d3"></div>
+					</a>
+				</li>
+				<li class="nav-item wp_tblock col-4 mb-5">
+					<a class="nav-link" id="WP_secD-tab" data-toggle="tab" href="#WP_secD" role="tab" aria-controls="WP_secD" aria-selected="false">
+						<div class="wp_tbtitle">
+							愛麗絲仙境森林
+							<!-- <h3>愛麗絲仙境森林</h3> -->
+						</div>
+						<div class="wp_tbimg d4"></div>
+					</a>
+				</li>
+				<li class="nav-item wp_tblock col-4 mb-5">
+					<a class="nav-link" id="WP_secE-tab" data-toggle="tab" href="#WP_secE" role="tab" aria-controls="WP_secE" aria-selected="false">
+						<div class="wp_tbimg d5"></div>
+						<div class="wp_tbtitle">
+							戀戀英倫皇家
+							<!-- <h3>戀戀英倫皇家</h3> -->
+						</div>
+					</a>
+				</li>
+				<li class="nav-item wp_tblock col-4 mb-5">
+					<a class="nav-link" id="WP_secF-tab" data-toggle="tab" href="#WP_secF" role="tab" aria-controls="WP_secF" aria-selected="false">
+						<div class="wp_tbimg d6"></div>
+						<div class="wp_tbtitle">
+							普羅旺斯田園
+							<!-- <h3>普羅旺斯田園</h3> -->
+						</div>
+					</a>
+				</li>
+				<li class="nav-item wp_tblock col-4 mb-5">
+					<a class="nav-link" id="WP_secG-tab" data-toggle="tab" href="#WP_secG" role="tab" aria-controls="WP_secG" aria-selected="false">
+						<div class="wp_tbimg d7"></div>
+						<div class="wp_tbtitle">
+							相約維多莉亞港
+							<!-- <h3>相約維多莉亞港</h3> -->
+						</div>
+					</a>
+				</li>
+				<li class="nav-item wp_tblock col-4 mb-5">
+					<a class="nav-link" id="WP_secH-tab" data-toggle="tab" href="#WP_secH" role="tab" aria-controls="WP_secH" aria-selected="false">
+						<div class="wp_tbimg d8"></div>
+						<div class="wp_tbtitle">
+							愛在巴黎日落時
+							<!-- <h3>愛在巴黎日落時</h3> -->
+						</div>
+					</a>
+				</li>
+			</ul>
+			<div class="tab-content col-12" id="myTabContent">
+				<div class="tab-pane fade show active" id="WP_secA" role="tabpanel" aria-labelledby="WP_secA-tab">
+					<div class="wp_footer row mx-0">
+						<h3>凡爾賽玫瑰</h3>
+						<div class="wp_fmain" style="background-image: url(img/service/stylingA_demo.jpg);"></div>
 					</div>
-					<div class="wp_tbimg d1"></div>
-				</div>
-				<div class="wp_tblock">
-					<div class="wp_tbtitle">
-						華麗年代復刻
-						<!-- <h3>華麗年代復刻</h3> -->
-					</div>
-					<div class="wp_tbimg d2"></div>
-				</div>
-				<div class="wp_tblock">
-					<div class="wp_tbtitle">
-						愛在希臘黎明時
-						<!-- <h3>愛在希臘黎明時</h3> -->
-					</div>
-					<div class="wp_tbimg d3"></div>
-				</div>
-				<div class="wp_tblock">
-					<div class="wp_tbtitle">
-						愛麗絲仙境森林
-						<!-- <h3>愛麗絲仙境森林</h3> -->
-					</div>
-					<div class="wp_tbimg d4"></div>
-				</div>
-				<div class="wp_tblock">
-					<div class="wp_tbimg d5"></div>
-					<div class="wp_tbtitle">
-						戀戀英倫皇家
-						<!-- <h3>戀戀英倫皇家</h3> -->
-					</div>
-				</div>
-				<div class="wp_tblock">
-					<div class="wp_tbimg d6"></div>
-					<div class="wp_tbtitle">
-						普羅旺斯田園
-						<!-- <h3>普羅旺斯田園</h3> -->
-					</div>
-				</div>
-				<div class="wp_tblock">
-					<div class="wp_tbimg d7"></div>
-					<div class="wp_tbtitle">
-						相約維多莉亞港
-						<!-- <h3>相約維多莉亞港</h3> -->
-					</div>
-				</div>
-				<div class="wp_tblock">
-					<div class="wp_tbimg d8"></div>
-					<div class="wp_tbtitle">
-						愛在巴黎日落時
-						<!-- <h3>愛在巴黎日落時</h3> -->
+					<div class="wp_ffooter col-12 p-0 mt-5">
+						<div class="wp_ffpic" style="background-image: url(img/service/stylingA_1.jpg);"></div>
+						<div class="wp_ffpic" style="background-image: url(img/service/stylingA_2.jpg);"></div>
+						<div class="wp_ffpic" style="background-image: url(img/service/stylingA_3.jpg);"></div>
+						<div class="wp_ffpic" style="background-image: url(img/service/stylingA_4.jpg);"></div>
+						<div class="wp_ffpic" style="background-image: url(img/service/stylingA_5.jpg);"></div>
+						<div class="wp_ffpic" style="background-image: url(img/service/stylingA_6.jpg);"></div>
+						<div class="wp_ffpic" style="background-image: url(img/service/stylingA_7.jpg);"></div>
+						<div class="wp_ffpic" style="background-image: url(img/service/stylingA_8.jpg);"></div>
+						<div class="wp_ffpic" style="background-image: url(img/service/stylingA_9.jpg);"></div>
+						<div class="wp_ffpic" style="background-image: url(img/service/stylingA_10.jpg);"></div>
+						<div class="wp_ffpic" style="background-image: url(img/service/stylingA_11.jpg);"></div>
+						<div class="wp_ffpic" style="background-image: url(img/service/stylingA_12.jpg);"></div>
+						<div class="wp_ffpic" style="background-image: url(img/service/stylingA_13.jpg);"></div>
+						<div class="wp_ffpic" style="background-image: url(img/service/stylingA_14.jpg);"></div>
+						<div class="wp_ffbtn ">
+							<i class="fas fa-angle-right fa-4x"></i>
+						</div>
 					</div>
 				</div>
 			</div>
+
+
 			<div class="wp_main">
 				<div class="wp_mtop"></div>
 				<div class="wp_mbottom">
 					<div class="wp_mbL">
-						<div class="wp_fbLbtn">愛在巴黎日落時</div>
+						<div class="wp_fbLbtn">愛在巴黎<wbr>日落時</div>
 					</div>
 					<div class="wp_fbR">
 						<div class="wp_fbRtxt">
-							<p>內容待輸入內容待輸入內容待輸入</p>
-						</div>
-						<div class="wp_fbRtxt">
-							<p>內容待輸入內容待輸入內容待輸入</p>
+							<p>內容介紹文字<wbr>內容介紹文字<wbr>內容介紹文字<wbr>內容介紹文字<wbr>內容介紹文字<wbr>內容介紹文字</p>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="wp_fotter row mx-0">
-				<!-- light box -->
-				<div class="wpLeft col-12 col-md-6 col-lg-4 pl-0">
-					<div class="wp_fpic1"></div>
-					<div class="wp_fpic2"></div>
-					<div class="wp_fpic3"></div>
-					<div class="wp_fpic4"></div>
-					<div class="wp_fpic5"></div>
+				<div class="wp_fotter row mx-0">
+					<!-- light box -->
+					<div class="wpLeft col-12 col-md-6 col-lg-4 pl-0">
+						<div class="wp_fpic1"></div>
+						<div class="wp_fpic2"></div>
+						<div class="wp_fpic3"></div>
+						<div class="wp_fpic4"></div>
+						<div class="wp_fpic5"></div>
+					</div>
+					<div class="wpMiddle col-12 col-md-6 col-lg-4 px-0">
+						<div class="wp_fpic1"></div>
+						<div class="wp_fpic2"></div>
+						<div class="wp_fpic3"></div>
+						<div class="wp_fpic4"></div>
+						<div class="wp_fpic5"></div>
+						<div class="wp_fpic6"></div>
+					</div>
+					<div class="wpRight col-12 col-md-6 col-lg-4 pr-0">
+						<div class="wp_fpic1"></div>
+						<div class="wp_fpic2"></div>
+						<div class="wp_fpic3"></div>
+						<div class="wp_fpic4"></div>
+						<div class="wp_fpic5"></div>
+					</div>
 				</div>
-				<div class="wpMiddle col-12 col-md-6 col-lg-4 px-0">
-					<div class="wp_fpic1"></div>
-					<div class="wp_fpic2"></div>
-					<div class="wp_fpic3"></div>
-					<div class="wp_fpic4"></div>
-					<div class="wp_fpic5"></div>
-					<div class="wp_fpic6"></div>
-				</div>
-				<div class="wpRight col-12 col-md-6 col-lg-4 pr-0">
-					<div class="wp_fpic1"></div>
-					<div class="wp_fpic2"></div>
-					<div class="wp_fpic3"></div>
-					<div class="wp_fpic4"></div>
-					<div class="wp_fpic5"></div>
-				</div>
-			</div>
-			<!-- <div class="wp_fbtn">
+				<!-- <div class="wp_fbtn">
 				<i class="fas fa-angle-down fa-7x"></i>
 			</div> -->
+			</div>
 		</div>
+
 		<div id="WD" class="WD section">
 			<!-- 婚禮紀錄 -->
 			<div class="section_title d-flex justify-content-between align-items-center">
@@ -403,8 +392,10 @@
 					<h3>經典時刻 珍愛典藏</h3>
 					<h3>與您同行 共刻回憶</h3>
 				</div>
+
 			</div>
 		</div>
+
 		<div id="BS" class="BS section row justify-content-between align-items-center m-0">
 			<!-- 新娘秘書 -->
 			<div class="section_title col-12 d-flex justify-content-center align-items-center px-0 mx-0">
@@ -416,38 +407,42 @@
 				<div class="section_deco"></div>
 			</div>
 			<ul class="nav nav-tabs col-12" id="myTab" role="tablist">
-				<li class="nav-item bs_tpic col-4 mt-5">
-					<a class="nav-link active" id="sectionA-tab" data-toggle="tab" href="#sectionA" role="tab" aria-controls="sectionA" aria-selected="true">
-						<h4>凡爾賽玫瑰</h4>
+				<li class="nav-item bs_tpic col-12 col-sm-6 col-md-4 mt-2 mt-md-5">
+					<a class="nav-link bs_tab active" id="sectionA-tab" data-toggle="tab" href="#sectionA" role="tab" aria-controls="sectionA"
+					 aria-selected="true">
+						<h4 class="d-none d-md-block">凡爾賽玫瑰</h4>
 						<div class="mx-auto my-3" style="background-image: url(img/service/stylingA_demo.jpg);"></div>
+						<h4 class="d-md-none">凡爾賽玫瑰</h4>
 					</a>
 				</li>
-				<li class="nav-item bs_tpic col-4 mt-5">
-					<a class="nav-link" id="sectionB-tab" data-toggle="tab" href="#sectionB" role="tab" aria-controls="sectionB" aria-selected="false">
-						<h4>粉紅泡泡</h4>
+				<li class="nav-item bs_tpic col-12 col-sm-6 col-md-4 mt-2 mt-md-5">
+					<a class="nav-link bs_tab" id="sectionB-tab" data-toggle="tab" href="#sectionB" role="tab" aria-controls="sectionB" aria-selected="false">
+						<h4 class="d-none d-md-block">粉紅泡泡</h4>
 						<div class="mx-auto my-3" style="background-image: url(img/service/stylingB_demo.jpg);"></div>
+						<h4 class="d-md-none">粉紅泡泡</h4>
 					</a>
 				</li>
-				<li class="nav-item bs_tpic col-4 mt-5">
-					<a class="nav-link" id="sectionC-tab" data-toggle="tab" href="#sectionC" role="tab" aria-controls="sectionC" aria-selected="false">
-						<h4>第凡內早餐</h4>
+				<li class="nav-item bs_tpic col-12 col-sm-6 col-md-4 mt-2 mt-md-5">
+					<a class="nav-link bs_tab" id="sectionC-tab" data-toggle="tab" href="#sectionC" role="tab" aria-controls="sectionC" aria-selected="false">
+						<h4 class="d-none d-md-block">第凡內早餐</h4>
 						<div class="mx-auto my-3" style="background-image: url(img/service/stylingC_demo.jpg);"></div>
+						<h4 class="d-md-none">第凡內早餐</h4>
 					</a>
 				</li>
-				<li class="nav-item bs_tpic col-4 mb-5">
-					<a class="nav-link" id="sectionD-tab" data-toggle="tab" href="#sectionD" role="tab" aria-controls="sectionD" aria-selected="false">
+				<li class="nav-item bs_tpic col-12 col-sm-6 col-md-4 mb-2 mb-md-5">
+					<a class="nav-link bs_tab" id="sectionD-tab" data-toggle="tab" href="#sectionD" role="tab" aria-controls="sectionD" aria-selected="false">
 						<div class="mx-auto my-3" style="background-image: url(img/service/stylingD_demo.jpg);"></div>
 						<h4>夢迴好萊塢</h4>
 					</a>
 				</li>
-				<li class="nav-item bs_tpic col-4 mb-5">
-					<a class="nav-link" id="sectionE-tab" data-toggle="tab" href="#sectionE" role="tab" aria-controls="sectionE" aria-selected="false">
+				<li class="nav-item bs_tpic col-12 col-sm-6 col-md-4 mb-2 mb-md-5">
+					<a class="nav-link bs_tab" id="sectionE-tab" data-toggle="tab" href="#sectionE" role="tab" aria-controls="sectionE" aria-selected="false">
 						<div class="mx-auto my-3" style="background-image: url(img/service/stylingE_demo.jpg);"></div>
 						<h4>絕代風華</h4>
 					</a>
 				</li>
-				<li class="nav-item bs_tpic col-4 mb-5">
-					<a class="nav-link" id="sectionF-tab" data-toggle="tab" href="#sectionF" role="tab" aria-controls="sectionF" aria-selected="false">
+				<li class="nav-item bs_tpic col-12 col-sm-6 col-md-4 mb-2 mb-md-5">
+					<a class="nav-link bs_tab" id="sectionF-tab" data-toggle="tab" href="#sectionF" role="tab" aria-controls="sectionF" aria-selected="false">
 						<div class="mx-auto my-3" style="background-image: url(img/service/stylingF_demo.jpg);"></div>
 						<h4>女神黛安娜</h4>
 					</a>
@@ -459,7 +454,7 @@
 						<h3>凡爾賽玫瑰</h3>
 						<div class="bs_fmain" style="background-image: url(img/service/stylingA_demo.jpg);"></div>
 					</div>
-					<div class="bs_ffooter col-12 p-0 mt-5">
+					<div class="bs_ffooter fold col-12 p-0 mt-5">
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingA_1.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingA_2.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingA_3.jpg);"></div>
@@ -474,8 +469,8 @@
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingA_12.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingA_13.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingA_14.jpg);"></div>
-						<div class="bs_ffbtn ">
-							<i class="fas fa-angle-right fa-4x"></i>
+						<div class="unfold_btn bs_ffbtn ">
+							<div class="pic_fbarrow"></div>
 						</div>
 					</div>
 				</div>
@@ -484,7 +479,7 @@
 						<h3>粉紅泡泡</h3>
 						<div class="bs_fmain" style="background-image: url(img/service/stylingB_demo.jpg);"></div>
 					</div>
-					<div class="bs_ffooter col-12 p-0 mt-5">
+					<div class="bs_ffooter fold col-12 p-0 mt-5">
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingB_1.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingB_2.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingB_3.jpg);"></div>
@@ -497,8 +492,8 @@
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingB_10.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingB_11.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingB_12.jpg);"></div>
-						<div class="bs_ffbtn ">
-							<i class="fas fa-angle-right fa-4x"></i>
+						<div class="unfold_btn bs_ffbtn ">
+							<div class="pic_fbarrow"></div>
 						</div>
 					</div>
 				</div>
@@ -507,7 +502,7 @@
 						<h3>第凡內早餐</h3>
 						<div class="bs_fmain" style="background-image: url(img/service/stylingC_demo.jpg);"></div>
 					</div>
-					<div class="bs_ffooter col-12 p-0 mt-5">
+					<div class="bs_ffooter fold col-12 p-0 mt-5">
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingC_1.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingC_2.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingC_3.jpg);"></div>
@@ -519,8 +514,8 @@
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingC_9.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingC_10.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingC_11.jpg);"></div>
-						<div class="bs_ffbtn ">
-							<i class="fas fa-angle-right fa-4x"></i>
+						<div class="unfold_btn bs_ffbtn ">
+							<div class="pic_fbarrow"></div>
 						</div>
 					</div>
 				</div>
@@ -529,7 +524,7 @@
 						<h3>夢迴好萊塢</h3>
 						<div class="bs_fmain" style="background-image: url(img/service/stylingD_demo.jpg);"></div>
 					</div>
-					<div class="bs_ffooter col-12 p-0 mt-5">
+					<div class="bs_ffooter fold col-12 p-0 mt-5">
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingD_1.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingD_2.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingD_3.jpg);"></div>
@@ -541,8 +536,8 @@
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingD_9.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingD_10.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingD_11.jpg);"></div>
-						<div class="bs_ffbtn ">
-							<i class="fas fa-angle-right fa-4x"></i>
+						<div class="unfold_btn bs_ffbtn ">
+							<div class="pic_fbarrow"></div>
 						</div>
 					</div>
 				</div>
@@ -551,7 +546,7 @@
 						<h3>絕代風華</h3>
 						<div class="bs_fmain" style="background-image: url(img/service/stylingE_demo.jpg);"></div>
 					</div>
-					<div class="bs_ffooter col-12 p-0 mt-5">
+					<div class="bs_ffooter fold col-12 p-0 mt-5">
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingE_1.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingE_2.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingE_3.jpg);"></div>
@@ -564,8 +559,8 @@
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingE_10.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingE_11.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingE_12.jpg);"></div>
-						<div class="bs_ffbtn ">
-							<i class="fas fa-angle-right fa-4x"></i>
+						<div class="unfold_btn bs_ffbtn ">
+							<div class="pic_fbarrow"></div>
 						</div>
 					</div>
 				</div>
@@ -574,7 +569,7 @@
 						<h3>女神黛安娜</h3>
 						<div class="bs_fmain" style="background-image: url(img/service/stylingF_demo.jpg);"></div>
 					</div>
-					<div class="bs_ffooter col-12 p-0 mt-5">
+					<div class="bs_ffooter fold col-12 p-0 mt-5">
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingF_1.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingF_2.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingF_3.jpg);"></div>
@@ -588,14 +583,15 @@
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingF_11.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingF_12.jpg);"></div>
 						<div class="bs_ffpic" style="background-image: url(img/service/stylingF_13.jpg);"></div>
-						<div class="bs_ffbtn ">
-							<i class="fas fa-angle-right fa-4x"></i>
+						<div class="unfold_btn bs_ffbtn ">
+							<div class="pic_fbarrow"></div>
 						</div>
 					</div>
 				</div>
 			</div>
 
 		</div>
+
 		<div id="TP" class="TP section row align-items-center mx-0">
 			<!-- 主題攝影 -->
 			<div class="section_title d-flex justify-content-between align-items-center">
@@ -606,10 +602,10 @@
 				</div>
 				<div class="section_deco"></div>
 			</div>
-			<div class="tp_txt col-12 row justify-content-around align-items-center mx-0 mb-5 px-0">
-				<div class="tp_atxt col-3 row mb-5">
-					<div class="flip-container mx-auto" ontouchstart="this.classList.toggle('hover');">
-						<div class="flipper">
+			<div class="tp_txt row justify-content-around align-items-center mx-0 my-5 px-0">
+				<div class="tp_atxt col-12 col-sm-6 col-lg-3 row mb-5">
+					<div class="flip-container col-12 mx-auto" ontouchstart="this.classList.toggle('hover');">
+						<div class="flipper mx-auto">
 							<div class="front">
 								<div class="tp_apic" style="background-image: url(img/service/TP1.jpg);"></div>
 							</div>
@@ -620,9 +616,9 @@
 					</div>
 					<h4 class="px-auto">孕婦嬰兒照</h4>
 				</div>
-				<div class="tp_atxt col-3 row mb-5">
-					<div class="flip-container mx-auto" ontouchstart="this.classList.toggle('hover');">
-						<div class="flipper">
+				<div class="tp_atxt col-12 col-sm-6 col-lg-3 row mb-5">
+					<div class="flip-container col-12 mx-auto" ontouchstart="this.classList.toggle('hover');">
+						<div class="flipper mx-auto">
 							<div class="front">
 								<div class="tp_apic" style="background-image: url(img/service/TP2.jpg);"></div>
 							</div>
@@ -633,9 +629,10 @@
 					</div>
 					<h4>家族親子照</h4>
 				</div>
-				<div class="tp_atxt col-3 row mb-5">
-					<div class="flip-container mx-auto" ontouchstart="this.classList.toggle('hover');">
-						<div class="flipper">
+
+				<div class="tp_atxt col-12 col-sm-6 col-lg-3 row mb-5">
+					<div class="flip-container col-12 mx-auto" ontouchstart="this.classList.toggle('hover');">
+						<div class="flipper mx-auto">
 							<div class="front">
 								<div class="tp_apic" style="background-image: url(img/service/TP3.jpg);"></div>
 							</div>
@@ -646,6 +643,7 @@
 					</div>
 					<h4>寵物寫真照</h4>
 				</div>
+
 				<div class="tp_atxt col-3 row mb-5">
 					<div class="flip-container mx-auto" ontouchstart="this.classList.toggle('hover');">
 						<div class="flipper">
@@ -662,7 +660,7 @@
 			</div>
 		</div>
 	</div>
-	</div>
+	
 	<div class="footer pt-3 mt-md-3">
 		<div id="contacts" class="section section_contacts">
 			<div class="section_title mt-md-4 d-flex justify-content-between align-items-center">
@@ -728,9 +726,6 @@
 			oOpenBtn.classList.remove("pic_fbtn");
 			oPhotoDemo.classList.add("unfold");
 		}
-
-	</script>
-	<script>
 		var oCollapse_btn = document.querySelector("#collapse_btn");
 		var oClose_btn = document.querySelector("#close_btn");
 		var oMobile_menu = document.querySelector("#mobile_menu");
@@ -739,17 +734,33 @@
 			oClose_btn.classList.remove("btn_hidden"); oMobile_menu.classList.remove("btn_hidden")
 		}
 		oClose_btn.onclick = function () {
-			oMobile_menu.classList.add("btn_hidden"); 
-			oClose_btn.classList.add("btn_hidden"); 
+			oMobile_menu.classList.add("btn_hidden");
+			oClose_btn.classList.add("btn_hidden");
 			oCollapse_btn.classList.remove("btn_hidden");
 		}
 		$(".menu_btn").click(function () {
-			oMobile_menu.classList.add("btn_hidden"); 
-			oClose_btn.classList.add("btn_hidden"); 
+			oMobile_menu.classList.add("btn_hidden");
+			oClose_btn.classList.add("btn_hidden");
 			oCollapse_btn.classList.remove("btn_hidden");
 		});
-	</script>
+		$(".bs_ffbtn").click(function () {
+			$(".pic_fbarrow").removeClass("pic_fbarrow");
+			$(".bs_ffbtn").removeClass("bs_ffbtn");
+			$(".bs_ffooter").removeClass("fold");
+			$(".bs_ffooter").addClass("unfold")
+		})
+		$(".bs_tab").click(function () {
 
+			$(".bs_ffooter").scrollTo(0, 0);
+			$(".bs_ffooter").removeClass("unfold");
+			$(".bs_ffooter").addClass("fold");
+
+			$(".unfold_btn").addClass("bs_ffbtn");
+			$(".unfold_btn>div").addClass("pic_fbarrow");
+
+			console.log(1258)
+		})
+	</script>
 
 </body>
 
