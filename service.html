@@ -386,7 +386,7 @@
 			</div>
 			<div class="wd_footer mx-md-auto">
 				<div class="wd_fL">
-					<h2>我的莊園婚禮</h2>
+					<h2>我的<wbr>莊園婚禮</h2>
 				</div>
 				<div class="wd_fR">
 					<h3>經典時刻 珍愛典藏</h3>
@@ -398,7 +398,7 @@
 
 		<div id="BS" class="BS section row justify-content-between align-items-center m-0">
 			<!-- 新娘秘書 -->
-			<div class="section_title col-12 d-flex justify-content-center align-items-center px-0 mx-0">
+			<div class="section_title col-12 d-flex justify-content-between align-items-center px-0 mx-0">
 				<div class="section_deco"></div>
 				<div>
 					<h1>新娘秘書</h1>
@@ -408,8 +408,7 @@
 			</div>
 			<ul class="nav nav-tabs col-12" id="myTab" role="tablist">
 				<li class="nav-item bs_tpic col-12 col-sm-6 col-md-4 mt-2 mt-md-5">
-					<a class="nav-link bs_tab active" id="sectionA-tab" data-toggle="tab" href="#sectionA" role="tab" aria-controls="sectionA"
-					 aria-selected="true">
+					<a class="nav-link bs_tab active" id="sectionA-tab" data-toggle="tab" href="#sectionA" role="tab" aria-controls="sectionA" aria-selected="true">
 						<h4 class="d-none d-md-block">凡爾賽玫瑰</h4>
 						<div class="mx-auto my-3" style="background-image: url(img/service/stylingA_demo.jpg);"></div>
 						<h4 class="d-md-none">凡爾賽玫瑰</h4>
@@ -629,10 +628,9 @@
 					</div>
 					<h4>家族親子照</h4>
 				</div>
-
 				<div class="tp_atxt col-12 col-sm-6 col-lg-3 row mb-5">
 					<div class="flip-container col-12 mx-auto" ontouchstart="this.classList.toggle('hover');">
-						<div class="flipper mx-auto">
+						<div class="flipper row justify-content-center">
 							<div class="front">
 								<div class="tp_apic" style="background-image: url(img/service/TP3.jpg);"></div>
 							</div>
@@ -643,10 +641,9 @@
 					</div>
 					<h4>寵物寫真照</h4>
 				</div>
-
-				<div class="tp_atxt col-3 row mb-5">
-					<div class="flip-container mx-auto" ontouchstart="this.classList.toggle('hover');">
-						<div class="flipper">
+				<div class="tp_atxt col-12 col-sm-6 col-lg-3 row justify-content-center mb-5">
+					<div class="flip-container col-12 mx-auto" ontouchstart="this.classList.toggle('hover');">
+						<div class="flipper row justify-content-center m-0">
 							<div class="front">
 								<div class="tp_apic" style="background-image: url(img/service/TP4.jpg);"></div>
 							</div>
@@ -749,15 +746,15 @@
 			$(".bs_ffooter").removeClass("fold");
 			$(".bs_ffooter").addClass("unfold")
 		})
-		$(".bs_tab").click(function () {
-
-			$(".bs_ffooter").scrollTo(0, 0);
+		$(".bs_tab").click(function(){
+			
+			$(".bs_ffooter").scrollTo(0,0);
 			$(".bs_ffooter").removeClass("unfold");
 			$(".bs_ffooter").addClass("fold");
-
+			
 			$(".unfold_btn").addClass("bs_ffbtn");
 			$(".unfold_btn>div").addClass("pic_fbarrow");
-
+			
 			console.log(1258)
 		})
 	</script>
