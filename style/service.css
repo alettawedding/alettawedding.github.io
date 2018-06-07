@@ -378,10 +378,9 @@
     align-items: center;
   }
   .WP .wp_top .wp_tblock .wp_tbtitle  {
-    width: 80%;
     height: 10%;
     /* background-color: #aaa; */
-    font-size: 1.35em;
+    font-size: 1.15rem;
     margin-bottom: 10px;
     color: #666666;
     display: flex;
